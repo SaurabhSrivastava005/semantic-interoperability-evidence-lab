@@ -321,4 +321,121 @@ entries:
     url: https://www.caudit.edu.au/communities/caudit-higher-education-reference-models
     notes: No distribution files copied; release-note clarifications not inspected.
 
+  - id: microsoft-cdm
+    title: "Microsoft Common Data Model"
+    domain: "cross-industry"
+    steward: "Microsoft"
+    ownership_type: vendor-led
+    model_category: common-data-model
+    regulatory_status: not-assessed
+    access_class: public
+    license: "CC-BY-4.0 for repository content; MIT for code; file notices and product terms separate"
+    license_status: source-stated
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "entity-specific; SDK 1.7.1 maintenance boundary inspected"
+    status: vendor-model-discovery
+    artifact_types: [common-data-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/microsoft-cdm.md
+    source_checked_on: 2026-10-19
+    url: https://github.com/microsoft/CDM
+    product_dependencies:
+      - "CDM SDK when using SDK-backed parsing"
+      - "Additional application schemas when required; Microsoft services have separate terms"
+
+  - id: salesforce-financial-services
+    title: "Salesforce Financial Services data models"
+    domain: "financial-services"
+    steward: "Salesforce"
+    ownership_type: vendor-led
+    model_category: industry-application-model
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "No open asset-reuse licence verified; product and documentation terms require checking"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Product and package release not established"
+    status: vendor-model-discovery
+    artifact_types: [industry-application-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/salesforce-financial-services.md
+    source_checked_on: 2026-10-19
+    url: https://developer.salesforce.com/docs/platform/data-models/guide/financial-services-overview.html
+    product_dependencies:
+      - "Salesforce product, object model and package requirements depend on selected representation"
+
+  - id: ibm-industry-models
+    title: "IBM Industry Models"
+    domain: "cross-industry"
+    steward: "IBM"
+    ownership_type: vendor-led
+    model_category: industry-model-family
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Offering-specific rights and entitlements not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Historical support-index releases; latest support status not established"
+    status: vendor-model-discovery
+    artifact_types: [industry-model-family]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/ibm-industry-models.md
+    source_checked_on: 2026-10-19
+    url: https://www.ibm.com/support/pages/getting-started-ibm-industry-models-2
+    product_dependencies:
+      - "Offering-specific modelling tools, entitlements and support requirements not verified"
+
+  - id: sap-one-domain-model
+    title: "SAP One Domain Model"
+    domain: "cross-industry"
+    steward: "SAP"
+    ownership_type: vendor-led
+    model_category: business-domain-model
+    regulatory_status: not-assessed
+    access_class: not-assessed
+    license: "Asset reuse and runtime entitlements not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No normative ODM version established; application document version is separate"
+    status: vendor-model-discovery
+    artifact_types: [business-domain-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/sap-one-domain-model.md
+    source_checked_on: 2026-10-19
+    url: https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/integration-models
+    product_dependencies:
+      - "Supported SAP application and integration model versions require confirmation"
+
+  - id: google-looker-lookml
+    title: "Google Looker semantic modelling with LookML"
+    domain: "cross-industry-analytics"
+    steward: "Google Cloud"
+    ownership_type: vendor-led
+    model_category: semantic-modelling-language
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Inspected documentation CC-BY-4.0 and samples Apache-2.0 except where noted; runtime and customer models separate"
+    license_status: partial
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Rolling documentation updated 2026-10-13; no runtime release assessed"
+    status: vendor-model-discovery
+    artifact_types: [semantic-modelling-language]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/google-looker-lookml.md
+    source_checked_on: 2026-10-19
+    url: https://docs.cloud.google.com/looker/docs/what-is-lookml
+    product_dependencies:
+      - "Looker execution environment"
+      - "Underlying SQL database; dialect and authored model require case-specific assessment"
+
 # End of registry

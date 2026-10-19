@@ -9,3 +9,6 @@ All records are source-based drafts pending independent review. A boundary or tr
 | [IFC interpretation](ifc-tool-interpretation.md) | GeoBIM benchmark | Software/version-specific limitation |
 
 Use [the template](../templates/exception.md). Include sources, affected versions, consequences and whether a workaround is tested, reported or proposed.
+
+## Vendor-documented maintenance boundaries
+- [Microsoft CDM Schema Store and SDK migration](microsoft-cdm-schema-store.md): draft based on an official maintenance notice, not a customer incident or independently reproduced failure.

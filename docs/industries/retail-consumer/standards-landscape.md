@@ -28,3 +28,7 @@ Customer identity, consent, permitted purpose, retention and jurisdiction must b
 
 ## Evidence status
 This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Vendor model discovery
+IBM's offering index includes historical Retail Data Warehouse releases with support end dates. See [IBM Industry Models](../../../registry/vendors/ibm-industry-models.md). A historical listing is not evidence of a currently supported recommendation.
+These are draft catalogue leads, not implementation endorsements. Use the same evidence requirements as for community models.

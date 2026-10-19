@@ -27,3 +27,16 @@ Financial services, energy, government, manufacturing and retail have no impleme
 
 ## Publication rules
 Source-checked-partial is discovery metadata, not accepted editorial status or legal clearance. Keep records draft until a second reviewer approves. Preserve missing versions, costs and evaluation criteria as unknown instead of estimating them. Linked source URLs are recorded in each record with relevant sections and dates.
+
+## Vendor discovery batch: 2026-10-19
+Five vendor profiles and one vendor-documented maintenance exception were added as drafts. Existing independent review requirements remain unchanged.
+
+| Vendor entry | Source checked | Remaining gaps |
+|---|---|---|
+| Microsoft CDM | Official overview, repository README, content/code licence files | Entity-specific versions, product compatibility and customer outcomes |
+| Salesforce Financial Services | Official overview and managed-package gallery | Runtime entitlements, exact releases, asset reuse rights and outcomes |
+| IBM Industry Models | Official offering and historical support tables | Current offering support, acquisition rights, tooling and outcomes |
+| SAP One Domain Model | Indexed official Help Portal text | Direct page extraction returned empty bodies; normative version, rights and outcomes unverified |
+| Google Looker/LookML | Official modelling documentation and footer terms | Runtime entitlement, authored-model rights and customer portability outcomes |
+
+Ownership is recorded as vendor-led. Regulatory status is not-assessed for every new entry. Documentation is not treated as independent implementation evidence. Catalogue size is now 27 entries; earlier unverified entries remain in the backlog. Older records have not yet been backfilled with the new classification fields.

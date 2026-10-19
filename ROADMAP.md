@@ -30,3 +30,10 @@
 - [ ] Publish periodic updates of new cases, exceptions and corrections.
 
 A website would present the curated content. A software platform, mapping workbench, agent compiler and benchmark implementation are outside the current scope.
+
+## Vendor coverage
+- [x] Add initial vendor discovery profiles and a classification guide.
+- [x] Record a vendor-documented dependency lifecycle exception.
+- [ ] Verify vendor asset rights, versions and product dependencies at use-case level.
+- [ ] Collect bounded vendor-model implementation cases with documented outcomes.
+- [ ] Backfill ownership and regulatory classification for older catalogue entries.

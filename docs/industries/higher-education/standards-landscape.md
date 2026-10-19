@@ -47,3 +47,7 @@ This landscape lists discovery leads and candidate use cases. It does not establ
 ## Sourced record drafts
 [Learner-record guide](../../../use-cases/learner-record-exchange.md), [DUO case](../../../implementations/education-duo-emrex.md), [recognition boundary](../../../exceptions/emrex-recognition-boundary.md), [EMREX licence check](../../../registry/emrex-elmo.md) and [HERM source check](../../../registry/caudit-herm.md).
 Independent editorial review is pending. Historical case outcomes do not establish current product performance.
+
+## Vendor model discovery
+Microsoft's CDM repository links a higher-education accelerator. See [the CDM profile](../../../registry/vendors/microsoft-cdm.md); current accelerator support and implementation results have not been verified.
+These are draft catalogue leads, not implementation endorsements. Use the same evidence requirements as for community models.

@@ -29,3 +29,7 @@ Case records should preserve jurisdiction, effective date, consent, permitted pu
 
 ## Evidence status
 This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Vendor model discovery
+See [Microsoft CDM](../../../registry/vendors/microsoft-cdm.md), [Salesforce Financial Services models](../../../registry/vendors/salesforce-financial-services.md) and [IBM Industry Models](../../../registry/vendors/ibm-industry-models.md). Confirm the exact product, entity and release before comparing applicability.
+These are draft catalogue leads, not implementation endorsements. Use the same evidence requirements as for community models.
