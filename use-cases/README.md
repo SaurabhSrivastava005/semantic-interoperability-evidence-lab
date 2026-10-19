@@ -5,4 +5,4 @@ Draft guides connect a business question to standards, implementation experience
 - [Learner and diploma record exchange](learner-record-exchange.md)
 - [Building model exchange](building-model-exchange.md)
 
-These are selection guides, not executable profiles. Apply [the evidence policy](../docs/evidence-policy.md) and use [the template](../templates/use-case.md).
+These are selection guides, not executable profiles. Apply [the evidence policy](../guides/evidence-policy.md) and use [the template](../templates/use-case.md).

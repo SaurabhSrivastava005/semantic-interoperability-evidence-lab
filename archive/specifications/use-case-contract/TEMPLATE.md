@@ -1,6 +1,6 @@
 # Archived template
 
-This belongs to the previous research proposal. Use the current [editorial templates](../../../templates/standard.md) for new hub contributions.
+This belongs to the previous research proposal. Use the current [editorial templates](../../../templates/catalogue-record.md) for new hub contributions.
 
 # Use-Case Contract
 
@@ -55,4 +55,3 @@ Define time to value, effort, accuracy, reuse, change resilience, governance ove
 ## 12. Limitations and open questions
 
 Record ambiguity, disagreement and evidence gaps.
-

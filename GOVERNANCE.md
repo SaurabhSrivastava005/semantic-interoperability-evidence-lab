@@ -25,4 +25,4 @@ Authors and reviewers disclose employment, commercial, funding and product inter
 Review accepted records at least annually, sooner when a source changes, a correction arrives or a relevant version changes. Mark overdue records as needing review. Review dates indicate an editorial check, not proof of continuing production use.
 
 ## Claims
-Apply [the evidence policy](docs/evidence-policy.md). Do not describe editorial acceptance as conformance certification, regulatory approval or endorsement.
+Apply [the evidence policy](guides/evidence-policy.md). Do not describe editorial acceptance as conformance certification, regulatory approval or endorsement.

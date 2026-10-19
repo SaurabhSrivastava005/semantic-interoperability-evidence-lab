@@ -1,6 +1,6 @@
 # Archived template
 
-This belongs to the previous research proposal. Use the current [editorial templates](../../../templates/standard.md) for new hub contributions.
+This belongs to the previous research proposal. Use the current [editorial templates](../../../templates/catalogue-record.md) for new hub contributions.
 
 # Industry Semantic Pack
 
@@ -54,4 +54,3 @@ Link pilots, conformance results, rejected mappings and operational findings.
 ## 12. Maintenance
 
 Define maintainers, review cycle, compatibility rules and deprecation process.
-

@@ -1,0 +1,91 @@
+industries:
+- id: higher-education
+  title: Higher Education and VET
+  guide: higher-education.md
+  catalogue_ids:
+  - caudit-herm
+  - ceds
+  - ed-fi
+  - emrex
+  - fair-principles
+  - hl7-fhir
+  - microsoft-cdm
+  - project-unicorn
+  implementation_cases:
+  - ../evidence/implementations/education-duo-emrex.md
+  use_cases:
+  - ../use-cases/learner-record-exchange.md
+- id: healthcare
+  title: Healthcare and Life Sciences
+  guide: healthcare.md
+  catalogue_ids:
+  - fair-principles
+  - hl7-fhir
+  - ibm-industry-models
+  - microsoft-cdm
+  - omop-cdm
+  - openehr
+  - snomed-ct
+  implementation_cases:
+  - ../evidence/implementations/healthcare-ehden-omop.md
+  - ../evidence/implementations/healthcare-flowsheet-omop.md
+  use_cases:
+  - ../use-cases/observational-health-research.md
+- id: financial-services
+  title: Banking and Financial Services
+  guide: financial-services.md
+  catalogue_ids:
+  - fibo
+  - ibm-industry-models
+  - microsoft-cdm
+  - salesforce-financial-services
+  implementation_cases: []
+  use_cases: []
+- id: energy-utilities
+  title: Energy and Utilities
+  guide: energy-utilities.md
+  catalogue_ids:
+  - fiware-smart-data-models
+  - ibm-industry-models
+  - iec-cim
+  - saref
+  implementation_cases: []
+  use_cases: []
+- id: real-estate-construction
+  title: Real Estate and Construction
+  guide: real-estate-construction.md
+  catalogue_ids:
+  - brick
+  - dtdl
+  - ifc
+  - realestatecore
+  implementation_cases:
+  - ../evidence/implementations/construction-geobim-ifc.md
+  use_cases:
+  - ../use-cases/building-model-exchange.md
+- id: government-public-services
+  title: Government and Public Services
+  guide: government-public-services.md
+  catalogue_ids:
+  - dcat3
+  - prov-o
+  - schema-org
+  - w3c-vc
+  implementation_cases: []
+  use_cases: []
+- id: manufacturing-supply-chain
+  title: Manufacturing and Supply Chain
+  guide: manufacturing-supply-chain.md
+  catalogue_ids: []
+  implementation_cases: []
+  use_cases: []
+- id: retail-consumer
+  title: Retail and Consumer
+  guide: retail-consumer.md
+  catalogue_ids:
+  - ibm-industry-models
+  - odcs
+  - schema-org
+  - w3c-vc
+  implementation_cases: []
+  use_cases: []

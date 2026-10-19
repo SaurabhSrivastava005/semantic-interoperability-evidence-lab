@@ -38,7 +38,7 @@ Higher education and VET; healthcare and life sciences; financial services; ener
 Track reviewed records by industry and use case, the proportion with versioned official references, the proportion linking implementation evidence and exceptions, stale records, correction turnaround and user feedback on whether the hub helped a selection decision. Publish counts with definitions. Do not report an industry success rate from a selectively collected set of cases.
 
 ## Maintenance and authority
-Follow [governance](GOVERNANCE.md) and the [evidence policy](docs/evidence-policy.md). Editorial acceptance means that a record meets publication requirements, not that SIEL endorses a product or certifies an implementation.
+Follow [governance](GOVERNANCE.md) and the [evidence policy](guides/evidence-policy.md). Editorial acceptance means that a record meets publication requirements, not that SIEL endorses a product or certifies an implementation.
 
 ## Repository
-The current structure is documented in [the repository guide](docs/repository-structure.md). Previous architecture proposals are retained in the archive for context.
+The current structure is documented in [the repository guide](guides/repository-structure.md). Previous architecture proposals are retained in the archive for context.

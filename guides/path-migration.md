@@ -1,0 +1,72 @@
+# Path Migration
+
+Stable catalogue IDs are unchanged. Old external deep links need updating; use the canonical destination below. Duplicate browse pages have been consolidated.
+
+| Previous path | Canonical destination |
+|---|---|
+| `LICENSES/Apache-2.0.txt` | [LICENSE](../LICENSE) |
+| `docs/ai-context-evaluation.md` | [guides/ai-context-evaluation.md](ai-context-evaluation.md) |
+| `docs/catalogue-classification.md` | [guides/classification.md](classification.md) |
+| `docs/evidence-policy.md` | [guides/evidence-policy.md](evidence-policy.md) |
+| `docs/industries/README.md` | [industries/README.md](../industries/README.md) |
+| `docs/industries/energy-utilities/standards-landscape.md` | [industries/energy-utilities.md](../industries/energy-utilities.md) |
+| `docs/industries/financial-services/standards-landscape.md` | [industries/financial-services.md](../industries/financial-services.md) |
+| `docs/industries/government-public-services/standards-landscape.md` | [industries/government-public-services.md](../industries/government-public-services.md) |
+| `docs/industries/healthcare/standards-landscape.md` | [industries/healthcare.md](../industries/healthcare.md) |
+| `docs/industries/higher-education/standards-landscape.md` | [industries/higher-education.md](../industries/higher-education.md) |
+| `docs/industries/manufacturing-supply-chain/standards-landscape.md` | [industries/manufacturing-supply-chain.md](../industries/manufacturing-supply-chain.md) |
+| `docs/industries/real-estate-construction/standards-landscape.md` | [industries/real-estate-construction.md](../industries/real-estate-construction.md) |
+| `docs/industries/retail-consumer/standards-landscape.md` | [industries/retail-consumer.md](../industries/retail-consumer.md) |
+| `docs/repository-structure.md` | [guides/repository-structure.md](repository-structure.md) |
+| `docs/source-verification.md` | [guides/verification-status.md](verification-status.md) |
+| `docs/standards-landscape.md` | [catalogue/discovery-backlog.md](../catalogue/discovery-backlog.md) |
+| `docs/unified-platform-blueprint.md` | [archive/unified-platform-blueprint.md](../archive/unified-platform-blueprint.md) |
+| `exceptions/README.md` | [evidence/exceptions/README.md](../evidence/exceptions/README.md) |
+| `exceptions/cortex-analyst-prior-results.md` | [evidence/exceptions/cortex-analyst-prior-results.md](../evidence/exceptions/cortex-analyst-prior-results.md) |
+| `exceptions/dbpedia-dataset-licensing.md` | [evidence/exceptions/dbpedia-dataset-licensing.md](../evidence/exceptions/dbpedia-dataset-licensing.md) |
+| `exceptions/emrex-recognition-boundary.md` | [evidence/exceptions/emrex-recognition-boundary.md](../evidence/exceptions/emrex-recognition-boundary.md) |
+| `exceptions/fabric-iq-ontology-migration.md` | [evidence/exceptions/fabric-iq-ontology-migration.md](../evidence/exceptions/fabric-iq-ontology-migration.md) |
+| `exceptions/ifc-tool-interpretation.md` | [evidence/exceptions/ifc-tool-interpretation.md](../evidence/exceptions/ifc-tool-interpretation.md) |
+| `exceptions/microsoft-cdm-schema-store.md` | [evidence/exceptions/microsoft-cdm-schema-store.md](../evidence/exceptions/microsoft-cdm-schema-store.md) |
+| `exceptions/omop-flowsheet-utility.md` | [evidence/exceptions/omop-flowsheet-utility.md](../evidence/exceptions/omop-flowsheet-utility.md) |
+| `exceptions/omop-local-vocabulary.md` | [evidence/exceptions/omop-local-vocabulary.md](../evidence/exceptions/omop-local-vocabulary.md) |
+| `implementations/README.md` | [evidence/implementations/README.md](../evidence/implementations/README.md) |
+| `implementations/construction-geobim-ifc.md` | [evidence/implementations/construction-geobim-ifc.md](../evidence/implementations/construction-geobim-ifc.md) |
+| `implementations/education-duo-emrex.md` | [evidence/implementations/education-duo-emrex.md](../evidence/implementations/education-duo-emrex.md) |
+| `implementations/healthcare-ehden-omop.md` | [evidence/implementations/healthcare-ehden-omop.md](../evidence/implementations/healthcare-ehden-omop.md) |
+| `implementations/healthcare-flowsheet-omop.md` | [evidence/implementations/healthcare-flowsheet-omop.md](../evidence/implementations/healthcare-flowsheet-omop.md) |
+| `initiatives/README.md` | [archive/README.md](../archive/README.md) |
+| `registry/README.md` | [catalogue/README.md](../catalogue/README.md) |
+| `registry/ai-context/README.md` | [guides/ai-context-comparison.md](ai-context-comparison.md) |
+| `registry/ai-context/databricks-genie-ontology.md` | [catalogue/records/databricks-genie-ontology.md](../catalogue/records/databricks-genie-ontology.md) |
+| `registry/ai-context/google-knowledge-catalog-context.md` | [catalogue/records/google-knowledge-catalog-context.md](../catalogue/records/google-knowledge-catalog-context.md) |
+| `registry/ai-context/microsoft-fabric-iq-ontology.md` | [catalogue/records/microsoft-fabric-iq-ontology.md](../catalogue/records/microsoft-fabric-iq-ontology.md) |
+| `registry/ai-context/palantir-ontology.md` | [catalogue/records/palantir-ontology.md](../catalogue/records/palantir-ontology.md) |
+| `registry/ai-context/snowflake-semantic-views-cortex.md` | [catalogue/records/snowflake-semantic-views-cortex.md](../catalogue/records/snowflake-semantic-views-cortex.md) |
+| `registry/analytics/cube-semantic-models.md` | [catalogue/records/cube-semantic-models.md](../catalogue/records/cube-semantic-models.md) |
+| `registry/analytics/dbt-semantic-layer.md` | [catalogue/records/dbt-semantic-layer.md](../catalogue/records/dbt-semantic-layer.md) |
+| `registry/analytics/power-bi-semantic-models.md` | [catalogue/records/power-bi-semantic-models.md](../catalogue/records/power-bi-semantic-models.md) |
+| `registry/caudit-herm.md` | [catalogue/records/caudit-herm.md](../catalogue/records/caudit-herm.md) |
+| `registry/emrex-elmo.md` | [catalogue/records/emrex.md](../catalogue/records/emrex.md) |
+| `registry/ifc.md` | [catalogue/records/ifc.md](../catalogue/records/ifc.md) |
+| `registry/knowledge-graphs/dbpedia.md` | [catalogue/records/dbpedia.md](../catalogue/records/dbpedia.md) |
+| `registry/knowledge-graphs/wikidata.md` | [catalogue/records/wikidata.md](../catalogue/records/wikidata.md) |
+| `registry/omop-cdm.md` | [catalogue/records/omop-cdm.md](../catalogue/records/omop-cdm.md) |
+| `registry/ontologies/brick.md` | [catalogue/records/brick.md](../catalogue/records/brick.md) |
+| `registry/ontologies/fibo.md` | [catalogue/records/fibo.md](../catalogue/records/fibo.md) |
+| `registry/ontologies/iec-cim.md` | [catalogue/records/iec-cim.md](../catalogue/records/iec-cim.md) |
+| `registry/ontologies/realestatecore.md` | [catalogue/records/realestatecore.md](../catalogue/records/realestatecore.md) |
+| `registry/ontologies/saref.md` | [catalogue/records/saref.md](../catalogue/records/saref.md) |
+| `registry/ontologies/schema-org.md` | [catalogue/records/schema-org.md](../catalogue/records/schema-org.md) |
+| `registry/registry-index.yaml` | [catalogue/index.yaml](../catalogue/index.yaml) |
+| `registry/semantic-and-knowledge-models.md` | [guides/classification.md](classification.md) |
+| `registry/technologies/README.md` | [guides/technology-boundaries.md](technology-boundaries.md) |
+| `registry/technologies/dtdl.md` | [catalogue/records/dtdl.md](../catalogue/records/dtdl.md) |
+| `registry/technologies/neo4j-platform.md` | [catalogue/records/neo4j-platform.md](../catalogue/records/neo4j-platform.md) |
+| `registry/vendors/README.md` | [catalogue/by-ownership.md](../catalogue/by-ownership.md) |
+| `registry/vendors/google-looker-lookml.md` | [catalogue/records/google-looker-lookml.md](../catalogue/records/google-looker-lookml.md) |
+| `registry/vendors/ibm-industry-models.md` | [catalogue/records/ibm-industry-models.md](../catalogue/records/ibm-industry-models.md) |
+| `registry/vendors/microsoft-cdm.md` | [catalogue/records/microsoft-cdm.md](../catalogue/records/microsoft-cdm.md) |
+| `registry/vendors/salesforce-financial-services.md` | [catalogue/records/salesforce-financial-services.md](../catalogue/records/salesforce-financial-services.md) |
+| `registry/vendors/sap-one-domain-model.md` | [catalogue/records/sap-one-domain-model.md](../catalogue/records/sap-one-domain-model.md) |
+| `templates/standard.md` | [templates/catalogue-record.md](../templates/catalogue-record.md) |

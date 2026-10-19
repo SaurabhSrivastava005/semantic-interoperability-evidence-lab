@@ -1,0 +1,1396 @@
+# Canonical discovery metadata. Edit records here; regenerate browse views.
+catalogue_version: 2
+entries:
+- id: brick
+  title: Brick building ontology
+  domain: real-estate-construction
+  steward: Brick Consortium
+  ownership_type: consortium-led
+  model_category: domain-ontology
+  regulatory_status: not-assessed
+  access_class: public
+  license: BSD-3-Clause in inspected repository licence; release dependencies require
+    checking
+  license_status: source-stated
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Release must be pinned; development README inspected
+  artifact_types:
+  - domain-ontology
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/brick.md
+  source_checked_on: 2026-10-19
+  url: https://github.com/BrickSchema/Brick
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - real-estate-construction
+  legacy_classification: discovery
+- id: caudit-herm
+  title: CAUDIT Higher Education Reference Models
+  domain: higher-education
+  steward: CAUDIT
+  license: CC-BY-NC-SA-4.0 plus stated usage conditions; see profile
+  jurisdiction: international-higher-education
+  version: 3.2.0 listed on inspected official page
+  artifact_types:
+  - reference-model
+  editorial_status: draft
+  verification_status: source-checked-partial
+  profile: records/caudit-herm.md
+  source_checked_on: 2026-10-19
+  url: https://www.caudit.edu.au/communities/caudit-higher-education-reference-models
+  notes: No distribution files copied; release-note clarifications not inspected.
+  model_category: reference-framework
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - higher-education
+  legacy_classification: reference-model
+- id: ceds
+  title: Common Education Data Standards (CEDS)
+  domain: education
+  steward: U.S. Department of Education / CEDS community
+  license: see source (public model)
+  jurisdiction: primarily US
+  version: ongoing
+  artifact_types:
+  - vocabulary
+  - data-dictionary
+  url: https://ceds.ed.gov/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Shared vocabulary for education; useful basis for profiles in education sector.
+  profile: records/ceds.md
+  model_category: education-data-model
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - higher-education
+  legacy_classification: open-model
+- id: credreg-ctdl
+  title: Credential Transparency Description Language (CTDL)
+  domain: credentials / learning
+  steward: Credential Engine / credreg.net
+  license: open (see steward)
+  jurisdiction: international
+  version: ongoing
+  artifact_types:
+  - vocabulary
+  - registry
+  url: https://credreg.net/ctdl
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Vocabulary for credentials, skills and pathways; often used with verifiable
+    credentials.
+  profile: records/credreg-ctdl.md
+  model_category: domain-ontology
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: open-vocabulary
+- id: cube-semantic-models
+  title: Cube semantic data models
+  domain: cross-industry-analytics
+  steward: Cube
+  ownership_type: vendor-led
+  model_category: analytical-semantic-modelling
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Engine, documentation, hosted service and customer model rights not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Rolling documentation; no deployment release assessed
+  artifact_types:
+  - analytical-semantic-modelling
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/cube-semantic-models.md
+  source_checked_on: 2026-10-19
+  url: https://docs.cube.dev/docs/data-modeling/overview
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: databricks-genie-ontology
+  title: Databricks Genie Ontology
+  domain: cross-industry-ai-context
+  steward: Databricks
+  ownership_type: vendor-led
+  model_category: ai-business-context
+  capability_subtype: inferred-and-curated-agent-context
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Public documentation inspected; runtime, customer model and export rights
+    not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No deployment release evaluated; documentation source checked 2026-10-19
+  feature_maturity: Public Preview in inspected documentation
+  artifact_types:
+  - ai-business-context
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/databricks-genie-ontology.md
+  source_checked_on: 2026-10-19
+  url: https://docs.databricks.com/aws/en/genie/genie-ontology
+  product_dependencies:
+  - Databricks platform and configured source assets; exact entitlements and integrations
+    require checking
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: dbpedia
+  title: DBpedia knowledge graph datasets
+  domain: cross-industry
+  steward: DBpedia Association / contributors
+  ownership_type: consortium-led
+  model_category: published-knowledge-graph
+  regulatory_status: not-assessed
+  access_class: public
+  license: Dataset-specific; inspected Fusion beta notice BSL-1.1; do not generalise
+  license_status: partial
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Dataset release must be identified; no snapshot evaluated
+  artifact_types:
+  - published-knowledge-graph
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/dbpedia.md
+  source_checked_on: 2026-10-19
+  url: https://www.dbpedia.org/resources/knowledge-graphs/
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records:
+  - ../evidence/exceptions/dbpedia-dataset-licensing.md
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: dbt-semantic-layer
+  title: dbt Semantic Layer / MetricFlow semantic models
+  domain: cross-industry-analytics
+  steward: dbt Labs
+  ownership_type: vendor-led
+  model_category: analytical-semantic-modelling
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Specification, engine code, documentation and hosted-service rights not
+    fully verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Documentation includes dbt v1.12+ conditions; no deployment release assessed
+  artifact_types:
+  - analytical-semantic-modelling
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/dbt-semantic-layer.md
+  source_checked_on: 2026-10-19
+  url: https://docs.getdbt.com/docs/build/semantic-models
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: dcat3
+  title: DCAT 3
+  domain: cross-industry / data catalogues
+  steward: W3C
+  license: W3C Document License
+  jurisdiction: international
+  version: 3
+  artifact_types:
+  - rdf-vocabulary
+  url: https://www.w3.org/TR/vocab-dcat-3/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Useful for describing datasets, services and profile assets in registries.
+  profile: records/dcat3.md
+  model_category: cross-domain-vocabulary
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - government-public-services
+  legacy_classification: open-vocabulary
+- id: dtdl
+  title: Digital Twins Definition Language (DTDL)
+  domain: iot-and-digital-twins
+  steward: Microsoft / DTDL contributors
+  ownership_type: vendor-led
+  model_category: semantic-modelling-language
+  regulatory_status: not-assessed
+  access_class: public
+  license: Inspected repository content licence CC-BY-4.0; code and runtime terms
+    separate
+  license_status: partial
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: README versions v2, v3 and v4 inspected; runtime support must be checked
+  artifact_types:
+  - semantic-modelling-language
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/dtdl.md
+  source_checked_on: 2026-10-19
+  url: https://github.com/Azure/opendigitaltwins-dtdl
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - real-estate-construction
+  legacy_classification: discovery
+- id: ed-fi
+  title: Ed-Fi Data Standard
+  domain: education (K-12)
+  steward: Ed-Fi Alliance
+  license: open-source (see project)
+  jurisdiction: primarily US
+  version: ongoing
+  artifact_types:
+  - data-model
+  - api-spec
+  url: https://docs.ed-fi.org/reference/data-exchange/data-standard/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Operational and analytical interoperability standard for K-12.
+  profile: records/ed-fi.md
+  model_category: education-data-model
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - higher-education
+  legacy_classification: open-standard
+- id: emrex
+  title: EMREX
+  domain: education / mobility
+  steward: EMREX community
+  license: component-specific; ELMO v2.1.2 has MIT and EUPL-1.2 files; applicability
+    unresolved
+  jurisdiction: Europe (primarily)
+  version: network unspecified; inspected ELMO schema tag v2.1.2
+  artifact_types:
+  - schemas
+  - tools
+  url: https://emrex.eu/
+  editorial_status: draft
+  verification_status: source-checked-partial
+  profile: records/emrex.md
+  source_checked_on: 2026-10-19
+  notes: Learner-controlled exchange of academic results; useful for transcript portability.
+  model_category: exchange-network
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases:
+  - ../evidence/implementations/education-duo-emrex.md
+  exception_records:
+  - ../evidence/exceptions/emrex-recognition-boundary.md
+  industries:
+  - higher-education
+  legacy_classification: open-initiative
+- id: fair-principles
+  title: FAIR Principles
+  domain: research / data stewardship
+  steward: FAIR community / GO-FAIR
+  license: CC BY or community terms
+  jurisdiction: international
+  version: principles
+  artifact_types:
+  - principles
+  - guidance
+  url: https://www.go-fair.org/fair-principles/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Guiding principles for findability, accessibility, interoperability and reuse.
+  profile: records/fair-principles.md
+  model_category: guidance
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - healthcare
+  - higher-education
+  legacy_classification: guidance
+- id: fibo
+  title: Financial Industry Business Ontology (FIBO)
+  domain: financial-services
+  steward: EDM Council / FIBO community
+  ownership_type: consortium-led
+  model_category: domain-ontology
+  regulatory_status: not-assessed
+  access_class: public
+  license: Code README identifies MIT; ontology-specific licence metadata not fully
+    checked
+  license_status: partial
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Select a named ontology release; none assessed for implementation
+  artifact_types:
+  - domain-ontology
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/fibo.md
+  source_checked_on: 2026-10-19
+  url: https://spec.edmcouncil.org/fibo/
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - financial-services
+  legacy_classification: discovery
+- id: fiware-smart-data-models
+  title: FIWARE Smart Data Models
+  domain: cross-industry / smart domains
+  steward: FIWARE / IUDX / TM Forum / OASC
+  license: varies; schemas typically open (see source)
+  jurisdiction: international
+  version: multiple
+  artifact_types:
+  - json-schema
+  - examples
+  url: https://smartdatamodels.org/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Harmonised models across smart domains; good source of reusable JSON models.
+  profile: records/fiware-smart-data-models.md
+  model_category: industry-model-family
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - energy-utilities
+  legacy_classification: open-model
+- id: google-knowledge-catalog-context
+  title: Google Knowledge Catalog data context
+  domain: cross-industry-ai-context
+  steward: Google Cloud
+  ownership_type: vendor-led
+  model_category: ai-business-context
+  capability_subtype: catalogue-context-retrieval
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Public documentation inspected; runtime, customer model and export rights
+    not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No deployment release evaluated; documentation source checked 2026-10-19
+  feature_maturity: Not established for every API or integration; verify selected
+    feature
+  artifact_types:
+  - ai-business-context
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/google-knowledge-catalog-context.md
+  source_checked_on: 2026-10-19
+  url: https://docs.cloud.google.com/knowledge-catalog/docs/about-context
+  product_dependencies:
+  - Google Cloud platform and configured source assets; exact entitlements and integrations
+    require checking
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: google-looker-lookml
+  title: Google Looker semantic modelling with LookML
+  domain: cross-industry-analytics
+  steward: Google Cloud
+  ownership_type: vendor-led
+  model_category: semantic-modelling-language
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Inspected documentation CC-BY-4.0 and samples Apache-2.0 except where noted;
+    runtime and customer models separate
+  license_status: partial
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Rolling documentation updated 2026-10-13; no runtime release assessed
+  artifact_types:
+  - semantic-modelling-language
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/google-looker-lookml.md
+  source_checked_on: 2026-10-19
+  url: https://docs.cloud.google.com/looker/docs/what-is-lookml
+  product_dependencies:
+  - Looker execution environment
+  - Underlying SQL database; dialect and authored model require case-specific assessment
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: vendor-model-discovery
+- id: hl7-fhir
+  title: HL7 FHIR
+  domain: healthcare
+  steward: HL7 International
+  license: see HL7 policies (public specification with terms)
+  jurisdiction: international
+  version: R4/R5 (varies)
+  artifact_types:
+  - data-models
+  - api-spec
+  url: https://hl7.org/fhir/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Widely used clinical and administrative data exchange standard; licensing
+    and IP require verification per use.
+  profile: records/hl7-fhir.md
+  model_category: exchange-standard
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - healthcare
+  - higher-education
+  legacy_classification: open-spec
+- id: ibm-industry-models
+  title: IBM Industry Models
+  domain: cross-industry
+  steward: IBM
+  ownership_type: vendor-led
+  model_category: industry-model-family
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Offering-specific rights and entitlements not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Historical support-index releases; latest support status not established
+  artifact_types:
+  - industry-model-family
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/ibm-industry-models.md
+  source_checked_on: 2026-10-19
+  url: https://www.ibm.com/support/pages/getting-started-ibm-industry-models-2
+  product_dependencies:
+  - Offering-specific modelling tools, entitlements and support requirements not verified
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - energy-utilities
+  - financial-services
+  - healthcare
+  - retail-consumer
+  legacy_classification: vendor-model-discovery
+- id: iec-cim
+  title: IEC Common Information Model (CIM)
+  domain: energy-utilities
+  steward: IEC
+  ownership_type: consortium-led
+  model_category: industry-information-model
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: IEC publication access and redistribution rights require checking; full
+    text not inspected
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: IEC 61970-301:2020+AMD1:2022 inspected; not a latest-version assertion
+  artifact_types:
+  - industry-information-model
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/iec-cim.md
+  source_checked_on: 2026-10-19
+  url: https://webstore.iec.ch/en/publication/74467
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - energy-utilities
+  legacy_classification: discovery
+- id: ifc
+  title: Industry Foundation Classes
+  domain: real-estate-construction
+  steward: buildingSMART International
+  license: CC-BY-ND-4.0 in inspected development licence; exact released artifact
+    terms require confirmation
+  jurisdiction: international
+  version: IFC2x3 and IFC4 in historical case; IFC4.3 rights check partial
+  artifact_types:
+  - data-model
+  - exchange-schema
+  editorial_status: draft
+  verification_status: source-checked-partial
+  profile: records/ifc.md
+  source_checked_on: 2026-10-19
+  url: https://technical.buildingsmart.org/standards/IFC/
+  notes: Historical benchmark findings must not be projected onto current products.
+  model_category: industry-information-model
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases:
+  - ../evidence/implementations/construction-geobim-ifc.md
+  exception_records:
+  - ../evidence/exceptions/ifc-tool-interpretation.md
+  industries:
+  - real-estate-construction
+  legacy_classification: standard
+- id: microsoft-cdm
+  title: Microsoft Common Data Model
+  domain: cross-industry
+  steward: Microsoft
+  ownership_type: vendor-led
+  model_category: common-data-model
+  regulatory_status: not-assessed
+  access_class: public
+  license: CC-BY-4.0 for repository content; MIT for code; file notices and product
+    terms separate
+  license_status: source-stated
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: entity-specific; SDK 1.7.1 maintenance boundary inspected
+  artifact_types:
+  - common-data-model
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/microsoft-cdm.md
+  source_checked_on: 2026-10-19
+  url: https://github.com/microsoft/CDM
+  product_dependencies:
+  - CDM SDK when using SDK-backed parsing
+  - Additional application schemas when required; Microsoft services have separate
+    terms
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records:
+  - ../evidence/exceptions/microsoft-cdm-schema-store.md
+  industries:
+  - financial-services
+  - healthcare
+  - higher-education
+  legacy_classification: vendor-model-discovery
+- id: microsoft-fabric-iq-ontology
+  title: Microsoft Fabric IQ ontology
+  domain: cross-industry-ai-context
+  steward: Microsoft
+  ownership_type: vendor-led
+  model_category: ai-business-context
+  capability_subtype: data-bound-business-ontology
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Public documentation inspected; runtime, customer model and export rights
+    not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No deployment release evaluated; documentation source checked 2026-10-19
+  feature_maturity: Preview in inspected documentation
+  artifact_types:
+  - ai-business-context
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/microsoft-fabric-iq-ontology.md
+  source_checked_on: 2026-10-19
+  url: https://learn.microsoft.com/en-us/fabric/iq/ontology/overview
+  product_dependencies:
+  - Microsoft platform and configured source assets; exact entitlements and integrations
+    require checking
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records:
+  - ../evidence/exceptions/fabric-iq-ontology-migration.md
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: neo4j-platform
+  title: Neo4j graph database platform
+  domain: cross-industry
+  steward: Neo4j
+  ownership_type: vendor-led
+  model_category: graph-platform
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Edition, deployment and asset-specific rights not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No product edition or release assessed
+  artifact_types:
+  - graph-platform
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/neo4j-platform.md
+  source_checked_on: 2026-10-19
+  url: https://neo4j.com/docs/getting-started/
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: odcs
+  title: Open Data Contract Standard
+  domain: cross-industry / data contracts
+  steward: Bitol community
+  license: Apache-2.0
+  jurisdiction: international
+  version: unspecified
+  artifact_types:
+  - yaml spec
+  - examples
+  url: https://bitol-io.github.io/open-data-contract-standard/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Machine-readable data contracts; SIEL references for contract packaging.
+  profile: records/odcs.md
+  model_category: data-contract-specification
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - retail-consumer
+  legacy_classification: open-spec
+- id: odrl
+  title: ODRL
+  domain: policy / rights
+  steward: W3C
+  license: W3C Document License
+  jurisdiction: international
+  version: recommendation
+  artifact_types:
+  - policy-vocabulary
+  url: https://www.w3.org/TR/odrl-model/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Represent machine-readable usage policies where suitable.
+  profile: records/odrl.md
+  model_category: policy-vocabulary
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: open-ontology
+- id: omop-cdm
+  title: OMOP Common Data Model
+  domain: healthcare / research
+  steward: OHDSI
+  license: documentation CC-BY-SA-4.0 unless otherwise specified; R package Apache-2.0;
+    vocabulary terms separate
+  jurisdiction: international
+  version: 5.5 (official site observed 2026-10-19)
+  artifact_types:
+  - data-model
+  - vocabularies
+  url: https://ohdsi.github.io/CommonDataModel/
+  editorial_status: draft
+  verification_status: source-checked-partial
+  profile: records/omop-cdm.md
+  source_checked_on: 2026-10-19
+  notes: See profile for checked sources, scope and separate documentation, software
+    and vocabulary terms.
+  model_category: common-data-model
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases:
+  - ../evidence/implementations/healthcare-ehden-omop.md
+  - ../evidence/implementations/healthcare-flowsheet-omop.md
+  exception_records:
+  - ../evidence/exceptions/omop-local-vocabulary.md
+  - ../evidence/exceptions/omop-flowsheet-utility.md
+  industries:
+  - healthcare
+  legacy_classification: open-model
+- id: openehr
+  title: openEHR
+  domain: healthcare
+  steward: openEHR Foundation
+  license: openEHR licences (varies)
+  jurisdiction: international
+  version: specifications (various)
+  artifact_types:
+  - archetypes
+  - templates
+  url: https://specifications.openehr.org/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Clinically governed models and archetypes; good for deep clinical semantics.
+  profile: records/openehr.md
+  model_category: clinical-information-model
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - healthcare
+  legacy_classification: open-spec
+- id: osi
+  title: Open Semantic Interchange
+  domain: cross-industry
+  steward: Open Semantic Interchange community
+  license: varies; see source
+  jurisdiction: international
+  version: unknown
+  artifact_types:
+  - vocabulary
+  - examples
+  url: https://open-semantic-interchange.github.io/osi-website/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Community initiative for exchanging semantic models across analytics, BI
+    and AI platforms.
+  profile: records/osi.md
+  model_category: semantic-interchange
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: open-model
+- id: palantir-ontology
+  title: Palantir Ontology
+  domain: cross-industry-ai-context
+  steward: Palantir
+  ownership_type: vendor-led
+  model_category: ai-business-context
+  capability_subtype: operational-ontology
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Public documentation inspected; runtime, customer model and export rights
+    not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No deployment release evaluated; documentation source checked 2026-10-19
+  feature_maturity: Not established for every component; no blanket GA claim
+  artifact_types:
+  - ai-business-context
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/palantir-ontology.md
+  source_checked_on: 2026-10-19
+  url: https://www.palantir.com/docs/foundry/ontology/overview
+  product_dependencies:
+  - Palantir platform and configured source assets; exact entitlements and integrations
+    require checking
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: power-bi-semantic-models
+  title: Power BI semantic models
+  domain: cross-industry-analytics
+  steward: Microsoft
+  ownership_type: vendor-led
+  model_category: analytical-semantic-modelling
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Model ownership, documentation reuse and runtime entitlement require separate
+    checks
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Rolling documentation; product release and model not assessed
+  artifact_types:
+  - analytical-semantic-modelling
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/power-bi-semantic-models.md
+  source_checked_on: 2026-10-19
+  url: https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: project-unicorn
+  title: Project Unicorn
+  domain: education (K-12)
+  steward: Project Unicorn community
+  license: varies
+  jurisdiction: primarily US
+  version: initiative
+  artifact_types:
+  - rubrics
+  - certification-guidance
+  url: https://www.projectunicorn.org/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Ecosystem pledge and adoption resources; not a data model by itself.
+  profile: records/project-unicorn.md
+  model_category: adoption-initiative
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - higher-education
+  legacy_classification: adoption/advocacy
+- id: prov-o
+  title: PROV-O
+  domain: provenance
+  steward: W3C
+  license: W3C Document License
+  jurisdiction: international
+  version: 1.0
+  artifact_types:
+  - ontology
+  url: https://www.w3.org/TR/prov-o/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Provenance ontology for recording origin and transformations of mappings
+    and evidence.
+  profile: records/prov-o.md
+  model_category: domain-ontology
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - government-public-services
+  legacy_classification: open-ontology
+- id: realestatecore
+  title: RealEstateCore (REC)
+  domain: real-estate-construction
+  steward: RealEstateCore Consortium
+  ownership_type: consortium-led
+  model_category: domain-ontology
+  regulatory_status: not-assessed
+  access_class: public
+  license: BSD-3-Clause in inspected REC repository; derived datasets and other variants
+    separate
+  license_status: source-stated
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: REC repository inspected; no stable release pinned for evaluation
+  artifact_types:
+  - domain-ontology
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/realestatecore.md
+  source_checked_on: 2026-10-19
+  url: https://github.com/RealEstateCore/rec
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - real-estate-construction
+  legacy_classification: discovery
+- id: salesforce-financial-services
+  title: Salesforce Financial Services data models
+  domain: financial-services
+  steward: Salesforce
+  ownership_type: vendor-led
+  model_category: industry-application-model
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: No open asset-reuse licence verified; product and documentation terms require
+    checking
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Product and package release not established
+  artifact_types:
+  - industry-application-model
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/salesforce-financial-services.md
+  source_checked_on: 2026-10-19
+  url: https://developer.salesforce.com/docs/platform/data-models/guide/financial-services-overview.html
+  product_dependencies:
+  - Salesforce product, object model and package requirements depend on selected representation
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - financial-services
+  legacy_classification: vendor-model-discovery
+- id: sap-one-domain-model
+  title: SAP One Domain Model
+  domain: cross-industry
+  steward: SAP
+  ownership_type: vendor-led
+  model_category: business-domain-model
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license: Asset reuse and runtime entitlements not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No normative ODM version established; application document version is separate
+  artifact_types:
+  - business-domain-model
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/sap-one-domain-model.md
+  source_checked_on: 2026-10-19
+  url: https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/integration-models
+  product_dependencies:
+  - Supported SAP application and integration model versions require confirmation
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: vendor-model-discovery
+- id: saref
+  title: Smart Applications REFerence ontology (SAREF)
+  domain: iot-and-smart-applications
+  steward: ETSI
+  ownership_type: consortium-led
+  model_category: domain-ontology
+  regulatory_status: not-assessed
+  access_class: public
+  license: ETSI IPR policy referenced for specification text; full artifact terms
+    not verified
+  license_status: partial
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Core v4.1.1 inspected; not a latest-version assertion
+  artifact_types:
+  - domain-ontology
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/saref.md
+  source_checked_on: 2026-10-19
+  url: https://saref.etsi.org/core/v4.1.1/
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - energy-utilities
+  legacy_classification: discovery
+- id: schema-org
+  title: Schema.org
+  domain: cross-industry
+  steward: Schema.org community
+  license: CC-BY-SA-3.0 for schema under inspected official terms; other assets separate
+  jurisdiction: international
+  version: ongoing
+  artifact_types:
+  - vocabulary
+  - ontology
+  url: https://schema.org/
+  editorial_status: draft
+  verification_status: source-checked-partial
+  ownership_type: mixed
+  model_category: cross-domain-vocabulary
+  regulatory_status: not-assessed
+  access_class: public
+  license_status: source-stated
+  implementation_outcome: not-evaluated
+  profile: records/schema-org.md
+  source_checked_on: 2026-10-19
+  notes: Broad cross-domain vocabulary; useful for general entity/relationship modelling.
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - government-public-services
+  - retail-consumer
+  legacy_classification: open-vocabulary
+- id: shacl
+  model_category: validation-language
+  title: SHACL
+  domain: cross-industry / semantic validation
+  steward: W3C
+  license: W3C Document License
+  jurisdiction: international
+  version: recommendation (2017)
+  artifact_types:
+  - shapes
+  - validation-rules
+  url: https://www.w3.org/TR/shacl/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Express deterministic semantic conformance rules for RDF graphs.
+  profile: records/shacl.md
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: open-standards
+- id: snomed-ct
+  title: SNOMED CT
+  domain: healthcare / clinical terminology
+  steward: SNOMED International
+  license: territory-specific (see steward)
+  jurisdiction: global (licensing varies by territory)
+  version: periodic releases
+  artifact_types:
+  - terminology
+  - code-system
+  url: https://www.snomed.org/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Clinical terminology with licensing restrictions in many jurisdictions.
+  profile: records/snomed-ct.md
+  model_category: terminology
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - healthcare
+  legacy_classification: reference-terminology
+- id: snowflake-semantic-views-cortex
+  title: Snowflake Semantic Views and Cortex Analyst
+  domain: cross-industry-ai-context
+  steward: Snowflake
+  ownership_type: vendor-led
+  model_category: ai-business-context
+  capability_subtype: semantic-analytics-grounding
+  regulatory_status: not-assessed
+  access_class: mixed
+  license: Public documentation inspected; runtime, customer model and export rights
+    not verified
+  license_status: not-verified
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: No deployment release evaluated; documentation source checked 2026-10-19
+  feature_maturity: Release and feature availability must be checked; not inferred
+    from overview
+  artifact_types:
+  - ai-business-context
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/snowflake-semantic-views-cortex.md
+  source_checked_on: 2026-10-19
+  url: https://docs.snowflake.com/en/user-guide/views-semantic/overview
+  product_dependencies:
+  - Snowflake platform and configured source assets; exact entitlements and integrations
+    require checking
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records:
+  - ../evidence/exceptions/cortex-analyst-prior-results.md
+  industries:
+  - cross-industry
+  legacy_classification: discovery
+- id: w3c-semantic-web
+  model_category: technology-family
+  title: W3C Semantic Web Standards (RDF/OWL/JSON-LD/SPARQL)
+  domain: cross-industry
+  steward: W3C
+  license: W3C Document License (see source)
+  jurisdiction: international
+  version: recommendations (various)
+  artifact_types:
+  - ontology
+  - serialization
+  - query
+  url: https://www.w3.org/2001/sw/wiki/Main_Page
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Foundational linked-data standards; key for machine-readable profiles.
+  profile: records/w3c-semantic-web.md
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: open-standards
+- id: w3c-vc
+  title: W3C Verifiable Credentials
+  domain: credentials / identity
+  steward: W3C
+  license: W3C Document License
+  jurisdiction: international
+  version: 2.0
+  artifact_types:
+  - data-model
+  url: https://www.w3.org/TR/vc-data-model-2.0/
+  editorial_status: draft
+  verification_status: not-reviewed
+  notes: Foundation for portable, cryptographically verifiable claims.
+  profile: records/w3c-vc.md
+  model_category: credential-data-model
+  ownership_type: not-assessed
+  regulatory_status: not-assessed
+  access_class: not-assessed
+  license_status: not-verified
+  implementation_outcome: not-evaluated
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  source_checked_on: null
+  next_review: null
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - government-public-services
+  - retail-consumer
+  legacy_classification: open-spec
+- id: wikidata
+  title: Wikidata
+  domain: cross-industry
+  steward: Wikidata community / Wikimedia
+  ownership_type: community-led
+  model_category: published-knowledge-graph
+  regulatory_status: not-assessed
+  access_class: public
+  license: Structured data in named namespaces CC0; other namespace text separate
+  license_status: source-stated
+  jurisdiction: Use-case-specific; no mandate assessed
+  version: Continuously updated; snapshot and item revisions must be recorded
+  artifact_types:
+  - published-knowledge-graph
+  editorial_status: draft
+  verification_status: source-checked-partial
+  implementation_outcome: not-evaluated
+  profile: records/wikidata.md
+  source_checked_on: 2026-10-19
+  url: https://www.wikidata.org/wiki/Wikidata:Copyright
+  product_dependencies:
+  - Identify version-specific imports, runtime and entitlement in a bounded implementation
+    case
+  prepared_by: Codex; source-specific checks as recorded
+  independent_reviewer: pending
+  next_review: '2027-04-19'
+  implementation_cases: []
+  exception_records: []
+  industries:
+  - cross-industry
+  legacy_classification: discovery

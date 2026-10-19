@@ -11,9 +11,9 @@
 ## User question and selection considerations
 Compare OMOP harmonisation experience with the intended analytical question.
 
-- Candidate standard: [OMOP CDM](../registry/omop-cdm.md).
-- Evidence: [EHDEN](../implementations/healthcare-ehden-omop.md) and [flowsheet integration](../implementations/healthcare-flowsheet-omop.md).
-- Exceptions: [local vocabulary](../exceptions/omop-local-vocabulary.md), [analytical utility](../exceptions/omop-flowsheet-utility.md).
+- Candidate standard: [OMOP CDM](../catalogue/records/omop-cdm.md).
+- Evidence: [EHDEN](../evidence/implementations/healthcare-ehden-omop.md) and [flowsheet integration](../evidence/implementations/healthcare-flowsheet-omop.md).
+- Exceptions: [local vocabulary](../evidence/exceptions/omop-local-vocabulary.md), [analytical utility](../evidence/exceptions/omop-flowsheet-utility.md).
 - Before selecting: identify required concepts, data provenance, acceptable information loss and terminology rights.
 - Acceptance criteria to establish locally: required variables retain intended meaning and support the declared analyses.
 - These cases do not replace clinical, methodological or data-quality review.

@@ -1,41 +1,32 @@
 # Semantic Interoperability Evidence Lab
+
 **Find standards. Understand exceptions. Learn from implementation evidence.**
 
-SIEL is an open, curated hub that brings standards, semantic models, knowledge graphs, data contracts and implementation experience into one place. Organised by industry and use case, it helps users understand what is relevant, where implementations have met their objectives, what required adaptation and what remains unresolved.
+SIEL is a curated knowledge hub for standards, data models, ontologies, semantic modelling and AI business context. It connects discovery with sourced implementation experience and documented limitations.
 
-## Start here
-- [Browse eight industry guides](docs/industries/README.md)
-- [Browse the standards catalogue](registry/README.md)
-- [Browse vendor models and semantic modelling products](registry/vendors/README.md)
-- [Browse semantic models, ontologies and knowledge graphs](registry/semantic-and-knowledge-models.md)
-- [Browse business-context capabilities for AI](registry/ai-context/README.md)
-- [Explore use cases](use-cases/README.md)
-- [Read implementation cases](implementations/README.md)
-- [Find exceptions and limitations](exceptions/README.md)
-- [Understand evidence labels](docs/evidence-policy.md)
-- [Contribute a source or experience](CONTRIBUTING.md)
+## Find what you need
 
-## What users should be able to answer
-1. Which standards are relevant to my industry, jurisdiction and use case?
-2. Where have they been implemented, with what outcome and supporting evidence?
-3. What local differences, exceptions, extensions and maintenance costs arose?
-4. What did not meet requirements, and what remains untested or uncertain?
+| Start with | Where to go |
+|---|---|
+| Your industry or business problem | [Industry guides](industries/README.md) and [use cases](use-cases/README.md) |
+| A standard, model, ontology or vendor capability | [Catalogue by category](catalogue/README.md) or [by ownership](catalogue/by-ownership.md) |
+| What was implemented and what happened | [Implementation cases](evidence/implementations/README.md) |
+| Exceptions, tradeoffs or product boundaries | [Exceptions and limitations](evidence/exceptions/README.md) |
+| What is checked and what remains uncertain | [Verification status](guides/verification-status.md) |
+| How to interpret or contribute evidence | [Evidence policy](guides/evidence-policy.md) and [contribution guide](CONTRIBUTING.md) |
 
-## Current coverage
-Eight industry landscapes and a starter YAML catalogue are available. Catalogue entries are discovery leads, not verified recommendations. Four sourced implementation drafts, four linked exception drafts and three use-case guides are available across healthcare, education and construction. Independent editorial review is pending. Proposed use cases are not evidence of successful adoption. See the [verification log](docs/source-verification.md) for checked sources and remaining gaps.
+## How to read the hub
 
-## How records connect
-An industry guide links to standards and use cases. A use case links to implementation cases. Cases link to the standards and versions used, supporting sources and any exception records. Readers can follow the evidence behind a conclusion.
+Industry guides link to canonical catalogue records. Use-case guides connect a business question to relevant records, implementation cases and exceptions. Each case states its source and limits. Catalogue metadata and generated indexes provide the current inventory without repeating descriptions across browse pages.
 
-We distinguish successful within stated scope, partially successful, unsuccessful for the stated use case, inconclusive and not evaluated. Missing public evidence does not establish failure. A reported experience is not independent verification.
-
-## Scope
-SIEL curates and assesses published information and authorised contributor experience. It does not build a software platform, universal model, mapping workbench or certification service. Official stewards remain the authority for their standards.
+Records are drafts unless explicitly accepted through editorial review. A source check is not independent reproduction. Missing evidence does not establish failure. See the [classification guide](guides/classification.md) for the distinction between models, populated graphs, languages and platforms.
 
 ## Project
-[Charter](CHARTER.md) · [Structure](docs/repository-structure.md) · [Governance](GOVERNANCE.md) · [Roadmap](ROADMAP.md) · [Security](SECURITY.md)
 
-Earlier platform and benchmark proposals are [archived](archive/README.md) and are not current delivery commitments.
+[Charter](CHARTER.md) · [Governance](GOVERNANCE.md) · [Roadmap](ROADMAP.md) · [Repository guide](guides/repository-structure.md) · [Security](SECURITY.md)
+
+SIEL curates evidence; it does not operate a modelling platform or certification service. Previous research proposals remain isolated in the [archive](archive/README.md).
 
 ## Licensing
-SIEL-authored documentation, templates and research summaries use [CC BY 4.0](LICENSES/README.md). Generic software and schemas use [Apache-2.0](LICENSES/Apache-2.0.txt). External standards and source publications retain their own terms. Link and summarise within permitted limits; public access does not imply redistribution rights.
+
+Original editorial content uses CC BY 4.0; generic software uses Apache-2.0. External assets retain their own terms. See [licensing boundaries](LICENSES/README.md).

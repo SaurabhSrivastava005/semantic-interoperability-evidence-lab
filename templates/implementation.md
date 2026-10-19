@@ -1,38 +1,37 @@
-# Implementation Case: [name]
-## Editorial metadata
-- Stable ID:
-- Status: draft
-- Author:
-- Reviewer: pending
-- Industry:
-- Jurisdiction:
-- Created:
-- Reviewed on: not reviewed
-- Next review:
-- Conflicts of interest:
-- Licence: CC BY 4.0 for the SIEL-authored record; external sources retain their terms
+---
+id: case-replace-with-stable-id
+record_type: implementation-case
+editorial_status: draft
+prepared_by: replace-with-author
+independent_reviewer: pending
+source_checked_on: null
+next_review: null
+catalogue_ids: [replace-with-existing-catalogue-id]
+industry: replace-with-industry-id
+provisional_outcome: not-evaluated
+outcome_scope: replace-with-bounded-scope
+---
+# [Implementation name]
 
-## Sources
-For each material claim: official or published URL, publisher, publication date if reported, relevant section, access date, source type and limitations. Do not use a populated date as a substitute for verification.
 ## Context
 - Organisation or published project:
-- Use-case link:
-- Standards and exact versions, or not reported:
-- Products and versions, where relevant:
-- Implementation and observation period:
-- Baseline or alternative, if reported:
-## Results
+- Business problem and use-case link:
+- Standards, products and exact versions, or not reported:
+- Jurisdiction and observation period:
+- Baseline or alternative:
+
+## Reported results and assessment
 - Source author's reported outcome:
-- SIEL assessed outcome: not-evaluated
-- Acceptance criteria and observed evidence:
-- Cost, effort and maintenance: not reported
-- Operational versus synthetic or pilot scope:
-- Limitations and unresolved requirements:
-## Evidence assessment
-- Source types and author interests:
-- Independent corroboration or reproduction, if any:
-- Conflicting evidence:
-- What cannot be concluded:
-## Related exceptions
-Link exception records and affected standard profiles.
-## Correction history
+- Acceptance criteria and observed results:
+- Operational, pilot or synthetic scope:
+- Cost, effort and maintenance, or not reported:
+- Why the provisional outcome applies only to the stated scope:
+
+## Sources and limits
+For each material claim record URL, publisher, relevant section, publication and access dates, source type, author interests, corroboration and conflicting evidence. State whether the work was independently reproduced. Disclose your conflicts and publication authority.
+
+## Related records
+Link the use case, canonical catalogue profiles and exception records. Update the catalogue index's implementation_cases links. Adjust relative paths when copying this template into evidence/implementations/.
+
+## Corrections
+Record changes, disputes, supersession or withdrawal with reasons. Follow the shared evidence policy.
