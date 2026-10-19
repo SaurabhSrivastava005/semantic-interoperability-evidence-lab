@@ -12,3 +12,6 @@ Use [the template](../templates/exception.md). Include sources, affected version
 
 ## Vendor-documented maintenance boundaries
 - [Microsoft CDM Schema Store and SDK migration](microsoft-cdm-schema-store.md): draft based on an official maintenance notice, not a customer incident or independently reproduced failure.
+
+## Knowledge graph publication boundaries
+- [DBpedia dataset-specific licensing](dbpedia-dataset-licensing.md): official Fusion beta notice; a rights boundary, not an implementation failure.

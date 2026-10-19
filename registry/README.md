@@ -19,3 +19,6 @@ Source checking and editorial acceptance are different. See [the verification lo
 Browse [five vendor profiles](vendors/README.md): Microsoft CDM, Salesforce Financial Services, IBM Industry Models, SAP One Domain Model and Google Looker/LookML. Their purpose and asset type differ; this is not a like-for-like ranking.
 
 New records distinguish ownership, regulatory status, access, licence status, product dependencies and implementation outcome. See [classification rules](../docs/catalogue-classification.md). No vendor implementation outcomes have been established in this batch.
+
+## Semantic and knowledge assets
+Browse [ontologies, analytical models, published knowledge graphs and enabling technologies](semantic-and-knowledge-models.md). The catalogue distinguishes reusable definitions from populated data, authoring languages and execution platforms. New profiles are drafts; no implementation outcomes were assessed in this batch.

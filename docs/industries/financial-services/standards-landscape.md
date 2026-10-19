@@ -33,3 +33,7 @@ This landscape lists discovery leads and candidate use cases. It does not establ
 ## Vendor model discovery
 See [Microsoft CDM](../../../registry/vendors/microsoft-cdm.md), [Salesforce Financial Services models](../../../registry/vendors/salesforce-financial-services.md) and [IBM Industry Models](../../../registry/vendors/ibm-industry-models.md). Confirm the exact product, entity and release before comparing applicability.
 These are draft catalogue leads, not implementation endorsements. Use the same evidence requirements as for community models.
+
+## Semantic and knowledge model discovery
+[FIBO](../../../registry/ontologies/fibo.md) provides a financial ontology discovery lead. It is distinct from a vendor application model and from a populated customer graph.
+See the [semantic catalogue](../../../registry/semantic-and-knowledge-models.md). These are drafts; use-case outcomes have not been established.

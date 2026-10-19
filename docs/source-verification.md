@@ -40,3 +40,23 @@ Five vendor profiles and one vendor-documented maintenance exception were added 
 | Google Looker/LookML | Official modelling documentation and footer terms | Runtime entitlement, authored-model rights and customer portability outcomes |
 
 Ownership is recorded as vendor-led. Regulatory status is not-assessed for every new entry. Documentation is not treated as independent implementation evidence. Catalogue size is now 27 entries; earlier unverified entries remain in the backlog. Older records have not yet been backfilled with the new classification fields.
+
+## Semantic and knowledge asset batch: 2026-10-19
+Thirteen profile drafts are added or completed: FIBO, Brick, RealEstateCore, SAREF, IEC CIM, Schema.org, DTDL, Power BI semantic models, dbt/MetricFlow, Cube, Wikidata, DBpedia and Neo4j. Existing LookML is cross-linked without a duplicate ID. Twelve new catalogue IDs bring the total to 39; Schema.org updates an existing entry.
+
+| Source group | Check | Remaining limitation |
+|---|---|---|
+| FIBO | Official overview and repository | Ontology-specific rights, chosen release and outcomes not fully assessed |
+| Brick and RealEstateCore | Official repositories and licence files | Release pinning, external dependencies and implementation evidence |
+| SAREF | Versioned core v4.1.1 documentation and IPR references | Full serialization rights and selected extension compatibility |
+| IEC CIM | Official consolidated-edition abstract | Normative full text, rights and exchange-profile details not inspected |
+| Schema.org | Official terms | Specific vocabulary release and implementation use |
+| DTDL | README version table and content licence | Runtime compatibility and code/model rights need separate checks |
+| Power BI, dbt and Cube | Official modelling documentation | Exact deployment version, entitlements, authored models and outcomes |
+| Wikidata | Official copyright notice | Bounded extraction, assertion quality and use-case fit not evaluated |
+| DBpedia | Official dataset-family page and Fusion beta notice | Exact distribution terms and dataset-specific quality |
+| Neo4j and W3C language references | Official introductory/specification sources | Product editions, rights and real implementation results |
+
+No new implementation success or failure cases are claimed. The DBpedia exception records an official licensing boundary, not a customer incident. All regulatory assessments remain not-assessed.
+
+Earlier statements of catalogue size are historical batch snapshots. The original Schema.org source check is now completed in this batch; the other original backlog entries still require their stated checks. SAREF, IEC and W3C pages are named inspected editions, not latest-version assertions.

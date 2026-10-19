@@ -37,3 +37,10 @@ A website would present the curated content. A software platform, mapping workbe
 - [ ] Verify vendor asset rights, versions and product dependencies at use-case level.
 - [ ] Collect bounded vendor-model implementation cases with documented outcomes.
 - [ ] Backfill ownership and regulatory classification for older catalogue entries.
+
+## Semantic and knowledge model coverage
+- [x] Separate ontologies, populated graphs, analytical modelling and enabling technologies.
+- [x] Add official-source discovery profiles and links to relevant industries.
+- [ ] Pin releases and investigate asset-specific reuse rights where checks are incomplete.
+- [ ] Collect bounded implementation cases for semantic models and enterprise knowledge graphs.
+- [ ] Evaluate documented local extensions, metric discrepancies, graph freshness and change effort.
