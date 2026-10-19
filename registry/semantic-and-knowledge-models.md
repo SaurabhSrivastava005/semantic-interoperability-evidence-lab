@@ -23,3 +23,6 @@ No new implementation success cases were established in this catalogue batch. Th
 Enterprise-specific graphs should be added through a [bounded implementation record](../templates/implementation.md) with publication authority. Product names, example models and announced partnerships are not substitutes.
 
 See [classification](../docs/catalogue-classification.md), [evidence rules](../docs/evidence-policy.md) and [the verification log](../docs/source-verification.md).
+
+## Vendor business-context capabilities
+[Genie Ontology, Palantir Ontology, Fabric IQ ontology, Snowflake Semantic Views/Cortex Analyst and Google Knowledge Catalog](ai-context/README.md) are documented as related but non-equivalent capabilities. Their configured organisational context is distinct from a prebuilt domain ontology. See [evaluation questions](../docs/ai-context-evaluation.md).

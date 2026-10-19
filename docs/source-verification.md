@@ -60,3 +60,18 @@ Thirteen profile drafts are added or completed: FIBO, Brick, RealEstateCore, SAR
 No new implementation success or failure cases are claimed. The DBpedia exception records an official licensing boundary, not a customer incident. All regulatory assessments remain not-assessed.
 
 Earlier statements of catalogue size are historical batch snapshots. The original Schema.org source check is now completed in this batch; the other original backlog entries still require their stated checks. SAREF, IEC and W3C pages are named inspected editions, not latest-version assertions.
+
+## AI business-context batch: 2026-10-19
+Five official-source draft profiles increase the catalogue from 39 to 44 entries. No new implementation success cases or customer failure reports are claimed.
+
+| Offering | Sources inspected | Maturity/remaining gaps |
+|---|---|---|
+| Databricks Genie Ontology | Official context documentation and operationalisation guide | Public Preview; tenant details, rights, export and measured outcomes unverified |
+| Palantir Ontology | Official Ontology overview and AIP architecture | Component maturity, entitlements and portability not established |
+| Microsoft Fabric IQ ontology | Official preview overview | Preview; bindings, migration and deployment behaviour not tested |
+| Snowflake Semantic Views/Cortex Analyst | Official semantic views and Analyst documentation | Feature-specific availability, exact deployment and outcomes unverified |
+| Google Knowledge Catalog | Official data-context and retrieval documentation | Integration-specific maturity, runtime and export rights not established |
+
+Two exception drafts record official Cortex Analyst multi-turn and Fabric preview migration boundaries. Proposed evaluation questions are labelled as questions, not findings. Vendor source claims about accuracy or safety are not adopted as guarantees. Licence status is not-verified for runtime and customer-authored assets; no proprietary assets are redistributed.
+
+The category guide explains differences in scope. Feature labels apply only to inspected documentation on the recorded date. The evaluation guide is editorial guidance, not a SIEL test service or platform.

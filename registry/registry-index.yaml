@@ -724,4 +724,129 @@ entries:
     product_dependencies:
       - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
 
+  - id: databricks-genie-ontology
+    title: "Databricks Genie Ontology"
+    domain: cross-industry-ai-context
+    steward: "Databricks"
+    ownership_type: vendor-led
+    model_category: ai-business-context
+    capability_subtype: inferred-and-curated-agent-context
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Public documentation inspected; runtime, customer model and export rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No deployment release evaluated; documentation source checked 2026-10-19"
+    feature_maturity: "Public Preview in inspected documentation"
+    status: discovery
+    artifact_types: [ai-business-context]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ai-context/databricks-genie-ontology.md
+    source_checked_on: 2026-10-19
+    url: https://docs.databricks.com/aws/en/genie/genie-ontology
+    product_dependencies:
+      - "Databricks platform and configured source assets; exact entitlements and integrations require checking"
+
+  - id: palantir-ontology
+    title: "Palantir Ontology"
+    domain: cross-industry-ai-context
+    steward: "Palantir"
+    ownership_type: vendor-led
+    model_category: ai-business-context
+    capability_subtype: operational-ontology
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Public documentation inspected; runtime, customer model and export rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No deployment release evaluated; documentation source checked 2026-10-19"
+    feature_maturity: "Not established for every component; no blanket GA claim"
+    status: discovery
+    artifact_types: [ai-business-context]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ai-context/palantir-ontology.md
+    source_checked_on: 2026-10-19
+    url: https://www.palantir.com/docs/foundry/ontology/overview
+    product_dependencies:
+      - "Palantir platform and configured source assets; exact entitlements and integrations require checking"
+
+  - id: microsoft-fabric-iq-ontology
+    title: "Microsoft Fabric IQ ontology"
+    domain: cross-industry-ai-context
+    steward: "Microsoft"
+    ownership_type: vendor-led
+    model_category: ai-business-context
+    capability_subtype: data-bound-business-ontology
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Public documentation inspected; runtime, customer model and export rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No deployment release evaluated; documentation source checked 2026-10-19"
+    feature_maturity: "Preview in inspected documentation"
+    status: discovery
+    artifact_types: [ai-business-context]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ai-context/microsoft-fabric-iq-ontology.md
+    source_checked_on: 2026-10-19
+    url: https://learn.microsoft.com/en-us/fabric/iq/ontology/overview
+    product_dependencies:
+      - "Microsoft platform and configured source assets; exact entitlements and integrations require checking"
+
+  - id: snowflake-semantic-views-cortex
+    title: "Snowflake Semantic Views and Cortex Analyst"
+    domain: cross-industry-ai-context
+    steward: "Snowflake"
+    ownership_type: vendor-led
+    model_category: ai-business-context
+    capability_subtype: semantic-analytics-grounding
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Public documentation inspected; runtime, customer model and export rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No deployment release evaluated; documentation source checked 2026-10-19"
+    feature_maturity: "Release and feature availability must be checked; not inferred from overview"
+    status: discovery
+    artifact_types: [ai-business-context]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ai-context/snowflake-semantic-views-cortex.md
+    source_checked_on: 2026-10-19
+    url: https://docs.snowflake.com/en/user-guide/views-semantic/overview
+    product_dependencies:
+      - "Snowflake platform and configured source assets; exact entitlements and integrations require checking"
+
+  - id: google-knowledge-catalog-context
+    title: "Google Knowledge Catalog data context"
+    domain: cross-industry-ai-context
+    steward: "Google Cloud"
+    ownership_type: vendor-led
+    model_category: ai-business-context
+    capability_subtype: catalogue-context-retrieval
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Public documentation inspected; runtime, customer model and export rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No deployment release evaluated; documentation source checked 2026-10-19"
+    feature_maturity: "Not established for every API or integration; verify selected feature"
+    status: discovery
+    artifact_types: [ai-business-context]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ai-context/google-knowledge-catalog-context.md
+    source_checked_on: 2026-10-19
+    url: https://docs.cloud.google.com/knowledge-catalog/docs/about-context
+    product_dependencies:
+      - "Google Cloud platform and configured source assets; exact entitlements and integrations require checking"
+
 # End of registry

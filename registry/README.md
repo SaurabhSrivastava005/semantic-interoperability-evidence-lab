@@ -22,3 +22,6 @@ New records distinguish ownership, regulatory status, access, licence status, pr
 
 ## Semantic and knowledge assets
 Browse [ontologies, analytical models, published knowledge graphs and enabling technologies](semantic-and-knowledge-models.md). The catalogue distinguishes reusable definitions from populated data, authoring languages and execution platforms. New profiles are drafts; no implementation outcomes were assessed in this batch.
+
+## Business context for AI
+Browse [business-context and ontology capabilities](ai-context/README.md), including Genie Ontology and related offerings. Profiles separate curated meaning, inferred context, analytical querying and operational actions. No implementation outcome is inferred from vendor documentation.

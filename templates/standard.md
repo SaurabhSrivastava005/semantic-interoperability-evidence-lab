@@ -49,3 +49,12 @@ Use [classification rules](../docs/catalogue-classification.md). Do not infer ri
 - Runtime, query interface and version compatibility:
 - Separate rights for schema, data, tools and service:
 Do not fill unknown fields with assumptions; use not assessed or not applicable with a reason.
+
+## Additional fields for AI context capabilities
+- Curated, inferred and externally retrieved context sources:
+- Definition authority, conflict handling and correction process:
+- Read/query capability versus action execution:
+- Feature maturity, deployment, region and source date:
+- Permissions across retrieval, generation and actions:
+- Citation, revision, retirement and export evidence:
+- Measured outcomes versus vendor claims and open evaluation questions:
