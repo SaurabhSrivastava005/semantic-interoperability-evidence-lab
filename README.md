@@ -6,6 +6,8 @@ SIEL is an open, curated hub that brings standards, semantic models, knowledge g
 ## Start here
 - [Browse eight industry guides](docs/industries/README.md)
 - [Browse the standards catalogue](registry/README.md)
+- [Browse vendor models and semantic modelling products](registry/vendors/README.md)
+- [Browse semantic models, ontologies and knowledge graphs](registry/semantic-and-knowledge-models.md)
 - [Explore use cases](use-cases/README.md)
 - [Read implementation cases](implementations/README.md)
 - [Find exceptions and limitations](exceptions/README.md)

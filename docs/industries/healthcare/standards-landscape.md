@@ -34,3 +34,7 @@ This landscape lists discovery leads and candidate use cases. It does not establ
 ## Sourced record drafts
 [Research guide](../../../use-cases/observational-health-research.md), [EHDEN case](../../../implementations/healthcare-ehden-omop.md), [flowsheet case](../../../implementations/healthcare-flowsheet-omop.md) and [OMOP source check](../../../registry/omop-cdm.md).
 Independent editorial review is pending. Historical case outcomes do not establish current product performance.
+
+## Vendor model discovery
+See [Microsoft CDM](../../../registry/vendors/microsoft-cdm.md) and [IBM Industry Models](../../../registry/vendors/ibm-industry-models.md). Their healthcare schema/offering references are discovery leads; they do not establish a clinical interoperability outcome.
+These are draft catalogue leads, not implementation endorsements. Use the same evidence requirements as for community models.

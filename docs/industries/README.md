@@ -18,3 +18,9 @@ Browse [use cases](../../use-cases/README.md), [implementation cases](../../impl
 Contributors should add linked editorial records using [the templates](../../templates/standard.md). Industry guides should summarise selection questions and link to those records rather than create semantic packs, executable profiles or test suites.
 
 Record official sources, versions, jurisdiction, reuse terms and review dates. Follow [the evidence policy](../evidence-policy.md). The [cross-industry landscape](../standards-landscape.md) is also a discovery document.
+
+## Vendor models
+Browse [vendor models and semantic modelling products](../../registry/vendors/README.md). Industry guides link applicable discovery leads. Ownership and regulatory status are separate; inclusion does not establish implementation success.
+
+## Semantic and graph models
+Browse [semantic and knowledge assets](../../registry/semantic-and-knowledge-models.md) by category. Domain ontologies, analytical models and populated graphs answer different questions. Enterprise-specific graphs require authorised, sourced implementation records.

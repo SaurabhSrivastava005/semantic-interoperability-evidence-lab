@@ -37,14 +37,22 @@ entries:
     title: Schema.org
     domain: cross-industry
     steward: Schema.org community
-    license: varies; see source
+    license: "CC-BY-SA-3.0 for schema under inspected official terms; other assets separate"
     jurisdiction: international
     version: ongoing
     status: open-vocabulary
     artifact_types: [vocabulary, ontology]
     url: https://schema.org/
     editorial_status: draft
-    verification_status: not-reviewed
+    verification_status: source-checked-partial
+    ownership_type: mixed
+    model_category: cross-domain-vocabulary
+    regulatory_status: not-assessed
+    access_class: public
+    license_status: source-stated
+    implementation_outcome: not-evaluated
+    profile: ontologies/schema-org.md
+    source_checked_on: 2026-10-19
     notes: Broad cross-domain vocabulary; useful for general entity/relationship modelling.
 
   - id: odcs
@@ -62,6 +70,7 @@ entries:
     notes: Machine-readable data contracts; SIEL references for contract packaging.
 
   - id: w3c-semantic-web
+    model_category: technology-family
     title: W3C Semantic Web Standards (RDF/OWL/JSON-LD/SPARQL)
     domain: cross-industry
     steward: W3C
@@ -76,6 +85,7 @@ entries:
     notes: Foundational linked-data standards; key for machine-readable profiles.
 
   - id: shacl
+    model_category: validation-language
     title: SHACL
     domain: cross-industry / semantic validation
     steward: W3C
@@ -320,5 +330,398 @@ entries:
     source_checked_on: 2026-10-19
     url: https://www.caudit.edu.au/communities/caudit-higher-education-reference-models
     notes: No distribution files copied; release-note clarifications not inspected.
+
+  - id: microsoft-cdm
+    title: "Microsoft Common Data Model"
+    domain: "cross-industry"
+    steward: "Microsoft"
+    ownership_type: vendor-led
+    model_category: common-data-model
+    regulatory_status: not-assessed
+    access_class: public
+    license: "CC-BY-4.0 for repository content; MIT for code; file notices and product terms separate"
+    license_status: source-stated
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "entity-specific; SDK 1.7.1 maintenance boundary inspected"
+    status: vendor-model-discovery
+    artifact_types: [common-data-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/microsoft-cdm.md
+    source_checked_on: 2026-10-19
+    url: https://github.com/microsoft/CDM
+    product_dependencies:
+      - "CDM SDK when using SDK-backed parsing"
+      - "Additional application schemas when required; Microsoft services have separate terms"
+
+  - id: salesforce-financial-services
+    title: "Salesforce Financial Services data models"
+    domain: "financial-services"
+    steward: "Salesforce"
+    ownership_type: vendor-led
+    model_category: industry-application-model
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "No open asset-reuse licence verified; product and documentation terms require checking"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Product and package release not established"
+    status: vendor-model-discovery
+    artifact_types: [industry-application-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/salesforce-financial-services.md
+    source_checked_on: 2026-10-19
+    url: https://developer.salesforce.com/docs/platform/data-models/guide/financial-services-overview.html
+    product_dependencies:
+      - "Salesforce product, object model and package requirements depend on selected representation"
+
+  - id: ibm-industry-models
+    title: "IBM Industry Models"
+    domain: "cross-industry"
+    steward: "IBM"
+    ownership_type: vendor-led
+    model_category: industry-model-family
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Offering-specific rights and entitlements not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Historical support-index releases; latest support status not established"
+    status: vendor-model-discovery
+    artifact_types: [industry-model-family]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/ibm-industry-models.md
+    source_checked_on: 2026-10-19
+    url: https://www.ibm.com/support/pages/getting-started-ibm-industry-models-2
+    product_dependencies:
+      - "Offering-specific modelling tools, entitlements and support requirements not verified"
+
+  - id: sap-one-domain-model
+    title: "SAP One Domain Model"
+    domain: "cross-industry"
+    steward: "SAP"
+    ownership_type: vendor-led
+    model_category: business-domain-model
+    regulatory_status: not-assessed
+    access_class: not-assessed
+    license: "Asset reuse and runtime entitlements not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No normative ODM version established; application document version is separate"
+    status: vendor-model-discovery
+    artifact_types: [business-domain-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/sap-one-domain-model.md
+    source_checked_on: 2026-10-19
+    url: https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/integration-models
+    product_dependencies:
+      - "Supported SAP application and integration model versions require confirmation"
+
+  - id: google-looker-lookml
+    title: "Google Looker semantic modelling with LookML"
+    domain: "cross-industry-analytics"
+    steward: "Google Cloud"
+    ownership_type: vendor-led
+    model_category: semantic-modelling-language
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Inspected documentation CC-BY-4.0 and samples Apache-2.0 except where noted; runtime and customer models separate"
+    license_status: partial
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Rolling documentation updated 2026-10-13; no runtime release assessed"
+    status: vendor-model-discovery
+    artifact_types: [semantic-modelling-language]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: vendors/google-looker-lookml.md
+    source_checked_on: 2026-10-19
+    url: https://docs.cloud.google.com/looker/docs/what-is-lookml
+    product_dependencies:
+      - "Looker execution environment"
+      - "Underlying SQL database; dialect and authored model require case-specific assessment"
+
+  - id: fibo
+    title: "Financial Industry Business Ontology (FIBO)"
+    domain: "financial-services"
+    steward: "EDM Council / FIBO community"
+    ownership_type: consortium-led
+    model_category: domain-ontology
+    regulatory_status: not-assessed
+    access_class: public
+    license: "Code README identifies MIT; ontology-specific licence metadata not fully checked"
+    license_status: partial
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Select a named ontology release; none assessed for implementation"
+    status: discovery
+    artifact_types: [domain-ontology]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ontologies/fibo.md
+    source_checked_on: 2026-10-19
+    url: https://spec.edmcouncil.org/fibo/
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: brick
+    title: "Brick building ontology"
+    domain: "real-estate-construction"
+    steward: "Brick Consortium"
+    ownership_type: consortium-led
+    model_category: domain-ontology
+    regulatory_status: not-assessed
+    access_class: public
+    license: "BSD-3-Clause in inspected repository licence; release dependencies require checking"
+    license_status: source-stated
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Release must be pinned; development README inspected"
+    status: discovery
+    artifact_types: [domain-ontology]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ontologies/brick.md
+    source_checked_on: 2026-10-19
+    url: https://github.com/BrickSchema/Brick
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: realestatecore
+    title: "RealEstateCore (REC)"
+    domain: "real-estate-construction"
+    steward: "RealEstateCore Consortium"
+    ownership_type: consortium-led
+    model_category: domain-ontology
+    regulatory_status: not-assessed
+    access_class: public
+    license: "BSD-3-Clause in inspected REC repository; derived datasets and other variants separate"
+    license_status: source-stated
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "REC repository inspected; no stable release pinned for evaluation"
+    status: discovery
+    artifact_types: [domain-ontology]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ontologies/realestatecore.md
+    source_checked_on: 2026-10-19
+    url: https://github.com/RealEstateCore/rec
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: saref
+    title: "Smart Applications REFerence ontology (SAREF)"
+    domain: "iot-and-smart-applications"
+    steward: "ETSI"
+    ownership_type: consortium-led
+    model_category: domain-ontology
+    regulatory_status: not-assessed
+    access_class: public
+    license: "ETSI IPR policy referenced for specification text; full artifact terms not verified"
+    license_status: partial
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Core v4.1.1 inspected; not a latest-version assertion"
+    status: discovery
+    artifact_types: [domain-ontology]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ontologies/saref.md
+    source_checked_on: 2026-10-19
+    url: https://saref.etsi.org/core/v4.1.1/
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: iec-cim
+    title: "IEC Common Information Model (CIM)"
+    domain: "energy-utilities"
+    steward: "IEC"
+    ownership_type: consortium-led
+    model_category: industry-information-model
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "IEC publication access and redistribution rights require checking; full text not inspected"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "IEC 61970-301:2020+AMD1:2022 inspected; not a latest-version assertion"
+    status: discovery
+    artifact_types: [industry-information-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: ontologies/iec-cim.md
+    source_checked_on: 2026-10-19
+    url: https://webstore.iec.ch/en/publication/74467
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: dtdl
+    title: "Digital Twins Definition Language (DTDL)"
+    domain: "iot-and-digital-twins"
+    steward: "Microsoft / DTDL contributors"
+    ownership_type: vendor-led
+    model_category: semantic-modelling-language
+    regulatory_status: not-assessed
+    access_class: public
+    license: "Inspected repository content licence CC-BY-4.0; code and runtime terms separate"
+    license_status: partial
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "README versions v2, v3 and v4 inspected; runtime support must be checked"
+    status: discovery
+    artifact_types: [semantic-modelling-language]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: technologies/dtdl.md
+    source_checked_on: 2026-10-19
+    url: https://github.com/Azure/opendigitaltwins-dtdl
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: power-bi-semantic-models
+    title: "Power BI semantic models"
+    domain: "cross-industry-analytics"
+    steward: "Microsoft"
+    ownership_type: vendor-led
+    model_category: analytical-semantic-modelling
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Model ownership, documentation reuse and runtime entitlement require separate checks"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Rolling documentation; product release and model not assessed"
+    status: discovery
+    artifact_types: [analytical-semantic-modelling]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: analytics/power-bi-semantic-models.md
+    source_checked_on: 2026-10-19
+    url: https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: dbt-semantic-layer
+    title: "dbt Semantic Layer / MetricFlow semantic models"
+    domain: "cross-industry-analytics"
+    steward: "dbt Labs"
+    ownership_type: vendor-led
+    model_category: analytical-semantic-modelling
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Specification, engine code, documentation and hosted-service rights not fully verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Documentation includes dbt v1.12+ conditions; no deployment release assessed"
+    status: discovery
+    artifact_types: [analytical-semantic-modelling]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: analytics/dbt-semantic-layer.md
+    source_checked_on: 2026-10-19
+    url: https://docs.getdbt.com/docs/build/semantic-models
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: cube-semantic-models
+    title: "Cube semantic data models"
+    domain: "cross-industry-analytics"
+    steward: "Cube"
+    ownership_type: vendor-led
+    model_category: analytical-semantic-modelling
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Engine, documentation, hosted service and customer model rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Rolling documentation; no deployment release assessed"
+    status: discovery
+    artifact_types: [analytical-semantic-modelling]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: analytics/cube-semantic-models.md
+    source_checked_on: 2026-10-19
+    url: https://docs.cube.dev/docs/data-modeling/overview
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: wikidata
+    title: "Wikidata"
+    domain: "cross-industry"
+    steward: "Wikidata community / Wikimedia"
+    ownership_type: community-led
+    model_category: published-knowledge-graph
+    regulatory_status: not-assessed
+    access_class: public
+    license: "Structured data in named namespaces CC0; other namespace text separate"
+    license_status: source-stated
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Continuously updated; snapshot and item revisions must be recorded"
+    status: discovery
+    artifact_types: [published-knowledge-graph]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: knowledge-graphs/wikidata.md
+    source_checked_on: 2026-10-19
+    url: https://www.wikidata.org/wiki/Wikidata:Copyright
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: dbpedia
+    title: "DBpedia knowledge graph datasets"
+    domain: "cross-industry"
+    steward: "DBpedia Association / contributors"
+    ownership_type: consortium-led
+    model_category: published-knowledge-graph
+    regulatory_status: not-assessed
+    access_class: public
+    license: "Dataset-specific; inspected Fusion beta notice BSL-1.1; do not generalise"
+    license_status: partial
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "Dataset release must be identified; no snapshot evaluated"
+    status: discovery
+    artifact_types: [published-knowledge-graph]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: knowledge-graphs/dbpedia.md
+    source_checked_on: 2026-10-19
+    url: https://www.dbpedia.org/resources/knowledge-graphs/
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
+
+  - id: neo4j-platform
+    title: "Neo4j graph database platform"
+    domain: "cross-industry"
+    steward: "Neo4j"
+    ownership_type: vendor-led
+    model_category: graph-platform
+    regulatory_status: not-assessed
+    access_class: mixed
+    license: "Edition, deployment and asset-specific rights not verified"
+    license_status: not-verified
+    jurisdiction: "Use-case-specific; no mandate assessed"
+    version: "No product edition or release assessed"
+    status: discovery
+    artifact_types: [graph-platform]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    implementation_outcome: not-evaluated
+    profile: technologies/neo4j-platform.md
+    source_checked_on: 2026-10-19
+    url: https://neo4j.com/docs/getting-started/
+    product_dependencies:
+      - "Identify version-specific imports, runtime and entitlement in a bounded implementation case"
 
 # End of registry

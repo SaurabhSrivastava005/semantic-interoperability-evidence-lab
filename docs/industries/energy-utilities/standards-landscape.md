@@ -28,3 +28,11 @@ Operational-technology safety, critical-infrastructure security and jurisdiction
 
 ## Evidence status
 This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Vendor model discovery
+IBM's historical offering index lists an Energy and Utilities data model. See [IBM Industry Models](../../../registry/vendors/ibm-industry-models.md) and verify current offering support and rights.
+These are draft catalogue leads, not implementation endorsements. Use the same evidence requirements as for community models.
+
+## Semantic and knowledge model discovery
+[IEC CIM](../../../registry/ontologies/iec-cim.md) and [SAREF](../../../registry/ontologies/saref.md) cover different modelling scopes. Select the applicable model, profile and version; do not infer equivalence from overlapping terminology.
+See the [semantic catalogue](../../../registry/semantic-and-knowledge-models.md). These are drafts; use-case outcomes have not been established.
