@@ -4,7 +4,7 @@ A model's ownership does not determine its effectiveness or regulatory standing.
 | Field | Meaning | Values or recording rule |
 |---|---|---|
 | ownership_type | Who governs the asset | vendor-led, community-led, consortium-led, public-authority, mixed, not-assessed |
-| model_category | What the asset is | common-data-model, industry-application-model, industry-model-family, business-domain-model, semantic-modelling-language, terminology, exchange-standard, reference-framework, domain-ontology, cross-domain-vocabulary, industry-information-model, analytical-semantic-modelling, published-knowledge-graph, graph-platform, technology-family, validation-language, other |
+| model_category | What the asset is | common-data-model, industry-application-model, industry-model-family, business-domain-model, semantic-modelling-language, terminology, exchange-standard, reference-framework, domain-ontology, cross-domain-vocabulary, industry-information-model, analytical-semantic-modelling, published-knowledge-graph, graph-platform, technology-family, validation-language, ai-business-context, other |
 | regulatory_status | Applicable mandate | mandated, referenced, voluntary, not-assessed; include jurisdiction, version and authoritative source for any asserted status |
 | access_class | What users can inspect | public, registration-required, entitlement-required, mixed, not-assessed |
 | license_status | What rights were checked | source-stated, partial, not-verified; link exact asset terms |
@@ -29,3 +29,8 @@ Documentation establishes documented scope. A release note establishes a vendor'
 - Graph platform: storage and execution technology.
 
 Use an implementation record to identify a specific organisation's model or populated graph. Record ontology/model version separately from dataset snapshot, instance revisions and runtime release. See [the semantic catalogue](../registry/semantic-and-knowledge-models.md).
+
+## AI business-context capabilities
+Use `ai-business-context` for vendor capabilities that assemble or expose organisational meaning for AI or operational workflows. Add `capability_subtype` to distinguish inferred/curated context, operational ontologies, bound entity models, analytical grounding and catalogue retrieval. This browse category does not imply equivalent architecture or behaviour.
+
+Record `feature_maturity` with an inspected source and date. Do not infer general availability for all components from an unlabelled overview. Keep publication status separate from SIEL editorial status.

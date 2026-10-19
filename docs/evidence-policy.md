@@ -41,3 +41,6 @@ Apply identical source and outcome requirements regardless of ownership. Record 
 A published ontology, populated dataset and successful business implementation are different claims. Identify which is supported. Record schema and import versions, assertion provenance, dataset snapshot, runtime and intended query or decision.
 
 Do not infer correct metrics from a modelling product's availability, reliable facts from graph size, semantic agreement from RDF syntax, or cross-platform equivalence from a shared language. Require bounded evidence and describe unresolved mappings or coverage gaps.
+
+## AI context products
+Separate human-curated definitions, inferred context, retrieved snippets, generated queries and executed actions in a case record. Documentation of ranking or permissions does not establish correct business decisions or independently verified security. Evaluate a named configuration against bounded criteria. Use [the AI context evaluation guide](ai-context-evaluation.md).

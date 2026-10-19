@@ -15,3 +15,9 @@ Use [the template](../templates/exception.md). Include sources, affected version
 
 ## Knowledge graph publication boundaries
 - [DBpedia dataset-specific licensing](dbpedia-dataset-licensing.md): official Fusion beta notice; a rights boundary, not an implementation failure.
+
+## AI context capability boundaries
+- [Cortex Analyst prior-result references](cortex-analyst-prior-results.md): documented multi-turn limit.
+- [Fabric IQ ontology migration](fabric-iq-ontology-migration.md): documented preview migration boundary.
+
+Both are source-based drafts, not independently reproduced customer failures.

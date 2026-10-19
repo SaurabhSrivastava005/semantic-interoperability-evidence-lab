@@ -20,3 +20,6 @@ All five profiles are drafts. Implementation outcomes are not evaluated. A docum
 - Assess regulatory mandate separately for the jurisdiction and use case.
 
 Use [the catalogue classification guide](../../docs/catalogue-classification.md) and [the evidence policy](../../docs/evidence-policy.md). The same evidence rules apply to vendor, community and consortium assets.
+
+## Related AI context and ontology offerings
+Browse the separate [AI business-context collection](../ai-context/README.md). It covers five additional vendor capabilities without treating them as prebuilt common data models or verified implementation cases.

@@ -30,3 +30,6 @@ The YAML catalogue remains discovery metadata. Individual profiles carry editori
 - `registry/vendors/`: existing vendor-owned model profiles.
 
 An asset has one canonical profile and catalogue ID even when multiple browse pages link it. LookML remains in the vendor directory and is cross-linked from the semantic catalogue.
+
+## AI business context
+`registry/ai-context/` holds vendor capability profiles. `docs/ai-context-evaluation.md` provides evidence-collection questions. The category is distinct from domain ontologies and does not require SIEL to implement a platform or run a benchmark.

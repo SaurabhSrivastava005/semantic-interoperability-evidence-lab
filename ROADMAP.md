@@ -44,3 +44,9 @@ A website would present the curated content. A software platform, mapping workbe
 - [ ] Pin releases and investigate asset-specific reuse rights where checks are incomplete.
 - [ ] Collect bounded implementation cases for semantic models and enterprise knowledge graphs.
 - [ ] Evaluate documented local extensions, metric discrepancies, graph freshness and change effort.
+
+## AI business-context offerings
+- [x] Document Genie Ontology and four related capabilities with scope distinctions.
+- [x] Publish evaluation questions and official capability-boundary records.
+- [ ] Obtain deployment-specific implementation cases and independent review.
+- [ ] Check export rights, update behaviour, conflict resolution and maintenance effort.
