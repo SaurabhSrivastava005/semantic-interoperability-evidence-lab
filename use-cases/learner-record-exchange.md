@@ -11,9 +11,9 @@
 ## User question and selection considerations
 Exchange authentic learner records with authorised recipients.
 
-- Candidate exchange approach: [EMREX/ELMO](../registry/emrex-elmo.md).
-- Evidence: [DUO diploma service](../implementations/education-duo-emrex.md).
-- Boundary: [record exchange versus recognition](../exceptions/emrex-recognition-boundary.md).
+- Candidate exchange approach: [EMREX/ELMO](../catalogue/records/emrex.md).
+- Evidence: [DUO diploma service](../evidence/implementations/education-duo-emrex.md).
+- Boundary: [record exchange versus recognition](../evidence/exceptions/emrex-recognition-boundary.md).
 - Before selecting: check available records, consent, identity, schema version and receiving-system integration.
 - Acceptance criteria to establish locally: authorised retrieval and correct interpretation of the required records.
 - Academic credit equivalence is a separate decision; the DUO service description does not prove it.

@@ -1,20 +1,15 @@
-# Licensing
+# Licensing Boundaries
 
-SIEL uses a dual-licensing model.
+SIEL uses different licences for different material; this is not a choice to relicense every file under either licence.
 
-## Software and machine-readable schemas
+| Material | Licence or boundary |
+|---|---|
+| Original documentation, summaries, templates and editorial catalogue metadata | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode), unless explicitly stated otherwise |
+| Generic software, schemas and validation utilities | [Apache-2.0](../LICENSE) |
+| External standards, model files, datasets, logos and quoted source material | Their own asset-specific terms; not relicensed by SIEL |
 
-Generic software, schemas and validation tools are licensed under the Apache License 2.0. The complete text is available in `Apache-2.0.txt` and at <https://www.apache.org/licenses/LICENSE-2.0>.
+The root LICENSE is the canonical Apache text. The README and this policy explain the documentation boundary. No third-party model or product licence is inferred from public access or vendor ownership. Source profiles record the checks and unresolved questions for each asset.
 
-## Documentation and creative material
+Official Apache licence source: <https://www.apache.org/licenses/LICENSE-2.0>.
 
-Unless a file states otherwise, documentation, diagrams, templates and research publications are licensed under the Creative Commons Attribution 4.0 International licence.
-
-Official licence deed: <https://creativecommons.org/licenses/by/4.0/>
-
-Official legal code: <https://creativecommons.org/licenses/by/4.0/legalcode>
-
-## Exclusions
-
-Third-party standards, trademarks, personal data and externally owned content are not licensed unless explicitly stated. Contributors may only submit material they are authorised to license.
-
+Contributors must have authority to publish their material. Link to restricted sources rather than copy their contents. Attribution and source links do not grant redistribution rights.

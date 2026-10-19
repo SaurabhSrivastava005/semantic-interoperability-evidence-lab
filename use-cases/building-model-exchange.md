@@ -11,9 +11,9 @@
 ## User question and selection considerations
 Preserve the specific building information required by a receiving workflow.
 
-- Candidate standard: [IFC](../registry/ifc.md).
-- Evidence: [GeoBIM benchmark](../implementations/construction-geobim-ifc.md).
-- Exception: [software interpretation and export](../exceptions/ifc-tool-interpretation.md).
+- Candidate standard: [IFC](../catalogue/records/ifc.md).
+- Evidence: [GeoBIM benchmark](../evidence/implementations/construction-geobim-ifc.md).
+- Exception: [software interpretation and export](../evidence/exceptions/ifc-tool-interpretation.md).
 - Before selecting: specify exporter/importer versions, dataset version, geometry, properties and coordinate requirements.
 - Acceptance criteria to establish locally: required information survives the selected exchange.
 - Historical findings guide what to test; they do not establish current product performance.
