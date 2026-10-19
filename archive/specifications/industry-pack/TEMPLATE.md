@@ -1,3 +1,7 @@
+# Archived template
+
+This belongs to the previous research proposal. Use the current [editorial templates](../../../templates/standard.md) for new hub contributions.
+
 # Industry Semantic Pack
 
 ## 1. Industry and scope

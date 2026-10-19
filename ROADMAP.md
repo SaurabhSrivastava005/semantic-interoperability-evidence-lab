@@ -1,63 +1,31 @@
 # Roadmap
+## Published foundation
+- [x] Charter and contribution guidance.
+- [x] Eight industry standards landscapes.
+- [x] Starter machine-readable catalogue.
+- [x] Templates for standards, use cases, implementations and exceptions.
+- [x] Evidence labels and editorial review policy.
+- [x] Archive earlier platform and benchmark proposals.
 
-## Phase 0: Foundation
+## Next: make existing content reliable
+- [ ] Review catalogue entries against official versioned sources.
+- [ ] Reconcile catalogue coverage with the industry landscapes.
+- [ ] Complete one reviewed standard profile using the template.
+- [ ] Publish one bounded use-case guide.
+- [ ] Publish the first sourced implementation case and linked exception where supported.
+- [ ] Recruit domain reviewers and record editorial ownership.
+- [ ] Check source links, reuse conditions and review dates.
 
-- [x] Publish founding charter
-- [x] Establish repository structure
-- [x] Define governance and contribution rules
-- [ ] Publish semantic-kernel selection criteria
-- [ ] Publish industry-pack template
-- [ ] Publish use-case-contract template
-- [ ] Publish semantic-context-manifest specification
-- [ ] Publish mapping-record specification
-- [x] Publish initial standards and initiatives landscape
-- [x] Publish unified platform blueprint
-- [ ] Create machine-readable standards registry
-- [ ] Add licence and availability classification
-- [ ] Add automated licence compatibility and dependency checks
-- [ ] Document the CAUDIT HERM reuse boundary and seek written permission before any derived integration
-- [ ] Define semantic decision record
-- [ ] Define evidence record schema
+## Then: deepen coverage
+- [ ] Prioritise industries according to contributor expertise and user demand.
+- [ ] Collect successful, partial, unsuccessful and unresolved cases.
+- [ ] Publish coverage gaps and review freshness.
+- [ ] Gather end-user feedback on discovery and usefulness.
+- [ ] Add lightweight metadata and internal-link validation.
 
-## Phase 1: Two industry pilots
+## Later: improve access
+- [ ] Consider a searchable documentation site when enough reviewed content exists.
+- [ ] Add filters for industry, use case, jurisdiction, standard, outcome and evidence source.
+- [ ] Publish periodic updates of new cases, exceptions and corrections.
 
-- [ ] Establish higher education credit transfer as the first pilot
-- [ ] Select one asset-intensive industry as the second pilot
-- [ ] Establish the Healthcare Semantic Fidelity Benchmark as a synthetic cross-platform initiative
-- [ ] Deliver the laboratory-results benchmark from H0 through H3
-- [ ] Qualify one measurable use case per pilot
-- [ ] Document baseline approaches and costs
-- [ ] Create synthetic test fixtures
-- [ ] Map at least two different source structures per use case
-- [ ] Publish conformance tests
-- [ ] Test deterministic and AI-assisted mappings separately
-- [ ] Add jurisdiction overlays and temporal versioning
-- [ ] Map CEDS and Ed-Fi at the school-to-tertiary boundary
-- [ ] Apply Project Unicorn adoption lessons without treating it as a technical standard
-- [ ] Apply FAIR Principles to research and evidence assets
-- [ ] Define an optional HL7 FHIR overlay for academic health and clinical research use cases
-
-## Phase 2: Independent evaluation
-
-- [ ] Recruit independent implementing organisations
-- [ ] Measure time, effort, accuracy, reuse and change resilience
-- [ ] Publish successful and unsuccessful findings
-- [ ] Revise or reject unsupported assumptions
-
-## Phase 3: Sustainable ecosystem
-
-- [ ] Establish permanent Core Council
-- [ ] Establish industry working groups
-- [ ] Publish release and compatibility policy
-- [ ] Develop reference mapping workbench
-- [ ] Expand industry portfolio only where evidence and maintainers exist
-
-## Phase 4: Unified platform
-
-- [ ] Build searchable standards registry
-- [ ] Build Industry Interoperability Profile Studio
-- [ ] Build semantic mapping and approval workbench
-- [ ] Build automated conformance runner
-- [ ] Build evidence registry and dashboard
-- [ ] Generate agent context packages
-- [ ] Add upstream standard change monitoring
+A website would present the curated content. A software platform, mapping workbench, agent compiler and benchmark implementation are outside the current scope.

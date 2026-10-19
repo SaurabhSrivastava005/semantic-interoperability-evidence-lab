@@ -1,44 +1,19 @@
 # Contributing
+Help users find standards, assess implementation experience and understand exceptions.
 
-SIEL welcomes domain expertise, implementation evidence, specifications, code, tests and constructive criticism.
+## Choose a contribution
+- Add or correct a standard using [the standard template](templates/standard.md).
+- Explain a business problem using [the use-case template](templates/use-case.md).
+- Document outcomes using [the implementation template](templates/implementation.md).
+- Record a limitation or difference using [the exception template](templates/exception.md).
 
-## Before contributing
+Start with one sourced record. No code, prototype or test runner is required.
 
-1. Read the charter and governance model.
-2. Search existing issues and decision records.
-3. Open an issue before proposing a new kernel concept or industry pack.
-4. Confirm that you have the right to contribute the material.
+## Requirements
+Read [the evidence policy](docs/evidence-policy.md). Identify source claims separately from your assessment. Include versions, jurisdiction, limitations and conflicts of interest. Do not invent missing outcomes, costs or verification dates.
 
-Do not submit confidential information, personal data, client-owned material, restricted standards content or proprietary schemas without explicit authority.
+Submit through a pull request explaining the user question addressed, sources checked, related records and open questions. A second reviewer is required for accepted status. Contributions can remain draft pending domain review.
 
-## Contribution paths
+Do not submit personal data, confidential schemas, restricted standards content or client material without publication authority. AI-assisted summaries require source checking and human review. Never fabricate implementation experience or citations.
 
-### Industry problem
-
-Use the industry problem issue template. Define the operational problem, affected participants, present workaround, baseline cost or risk and measurable outcome.
-
-### Use-case contract
-
-Start from `specifications/use-case-contract/TEMPLATE.md`. Keep the semantic scope limited to what the use case requires.
-
-### Industry semantic pack
-
-Start from `specifications/industry-pack/TEMPLATE.md`. A pack requires credible industry reviewers and at least one proposed implementation use case.
-
-### Code or schema
-
-Include tests, example data and documentation. AI-generated mappings must be clearly identified and cannot be treated as approved meaning without human review.
-
-## Pull requests
-
-A pull request should explain:
-
-- the problem addressed;
-- why the change belongs at the proposed layer;
-- evidence supporting it;
-- compatibility impact;
-- validation performed; and
-- unresolved questions.
-
-By contributing, you agree that accepted documentation is licensed under CC BY 4.0 and accepted software or schemas are licensed under Apache License 2.0, unless the repository clearly states otherwise.
-
+By contributing, you agree to the [licensing policy](LICENSES/README.md) for material you are authorised to license.

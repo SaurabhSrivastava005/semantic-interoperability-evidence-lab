@@ -1,3 +1,7 @@
+# Archived research proposal
+
+This benchmark was proposed, not implemented. It is outside SIEL's current delivery scope and is not an implementation case.
+
 # Healthcare Semantic Fidelity Benchmark
 
 ## Status

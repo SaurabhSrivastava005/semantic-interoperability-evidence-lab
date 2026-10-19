@@ -1,3 +1,7 @@
+# Archived template
+
+This belongs to the previous research proposal. Use the current [editorial templates](../../../templates/standard.md) for new hub contributions.
+
 # Use-Case Contract
 
 ## 1. Identification

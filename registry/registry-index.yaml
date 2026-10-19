@@ -1,7 +1,7 @@
 # SIEL Registry Index
 # Machine-readable registry of initiatives, standards and models for SIEL
 # Generated: 2026-10-19
-# Fields: id, title, domain, steward, license, jurisdiction, version, status, artifact_types, conformance, evidence_maturity, url, last_verified, notes
+# Discovery metadata only. Entries require editorial verification before recommendation.
 
 registry_version: 1
 entries:
@@ -14,10 +14,9 @@ entries:
     version: unknown
     status: open-model
     artifact_types: [vocabulary, examples]
-    conformance: no
-    evidence_maturity: experimental
     url: https://open-semantic-interchange.github.io/osi-website/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Community initiative for exchanging semantic models across analytics, BI and AI platforms.
 
   - id: fiware-smart-data-models
@@ -29,10 +28,9 @@ entries:
     version: multiple
     status: open-model
     artifact_types: [json-schema, examples]
-    conformance: partial
-    evidence_maturity: validated
     url: https://smartdatamodels.org/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Harmonised models across smart domains; good source of reusable JSON models.
 
   - id: schema-org
@@ -44,10 +42,9 @@ entries:
     version: ongoing
     status: open-vocabulary
     artifact_types: [vocabulary, ontology]
-    conformance: no
-    evidence_maturity: production
     url: https://schema.org/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Broad cross-domain vocabulary; useful for general entity/relationship modelling.
 
   - id: odcs
@@ -59,10 +56,9 @@ entries:
     version: unspecified
     status: open-spec
     artifact_types: [yaml spec, examples]
-    conformance: partial
-    evidence_maturity: experimental
     url: https://bitol-io.github.io/open-data-contract-standard/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Machine-readable data contracts; SIEL references for contract packaging.
 
   - id: w3c-semantic-web
@@ -74,10 +70,9 @@ entries:
     version: recommendations (various)
     status: open-standards
     artifact_types: [ontology, serialization, query]
-    conformance: yes
-    evidence_maturity: production
     url: https://www.w3.org/2001/sw/wiki/Main_Page
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Foundational linked-data standards; key for machine-readable profiles.
 
   - id: shacl
@@ -89,10 +84,9 @@ entries:
     version: recommendation (2017)
     status: open-standards
     artifact_types: [shapes, validation-rules]
-    conformance: yes
-    evidence_maturity: production
     url: https://www.w3.org/TR/shacl/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Express deterministic semantic conformance rules for RDF graphs.
 
   - id: dcat3
@@ -104,10 +98,9 @@ entries:
     version: 3
     status: open-vocabulary
     artifact_types: [rdf-vocabulary]
-    conformance: partial
-    evidence_maturity: validated
     url: https://www.w3.org/TR/vocab-dcat-3/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Useful for describing datasets, services and profile assets in registries.
 
   - id: prov-o
@@ -119,10 +112,9 @@ entries:
     version: 1.0
     status: open-ontology
     artifact_types: [ontology]
-    conformance: yes
-    evidence_maturity: production
     url: https://www.w3.org/TR/prov-o/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Provenance ontology for recording origin and transformations of mappings and evidence.
 
   - id: odrl
@@ -134,10 +126,9 @@ entries:
     version: recommendation
     status: open-ontology
     artifact_types: [policy-vocabulary]
-    conformance: partial
-    evidence_maturity: validated
     url: https://www.w3.org/TR/odrl-model/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Represent machine-readable usage policies where suitable.
 
   - id: fair-principles
@@ -149,10 +140,9 @@ entries:
     version: principles
     status: guidance
     artifact_types: [principles, guidance]
-    conformance: no
-    evidence_maturity: production
     url: https://www.go-fair.org/fair-principles/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Guiding principles for findability, accessibility, interoperability and reuse.
 
   - id: hl7-fhir
@@ -164,10 +154,9 @@ entries:
     version: R4/R5 (varies)
     status: open-spec
     artifact_types: [data-models, api-spec]
-    conformance: yes (conformance frameworks exist)
-    evidence_maturity: production
     url: https://hl7.org/fhir/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Widely used clinical and administrative data exchange standard; licensing and IP require verification per use.
 
   - id: openehr
@@ -179,10 +168,9 @@ entries:
     version: specifications (various)
     status: open-spec
     artifact_types: [archetypes, templates]
-    conformance: partial
-    evidence_maturity: validated
     url: https://specifications.openehr.org/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Clinically governed models and archetypes; good for deep clinical semantics.
 
   - id: omop-cdm
@@ -194,10 +182,9 @@ entries:
     version: 6.x
     status: open-model
     artifact_types: [data-model, vocabularies]
-    conformance: partial
-    evidence_maturity: validated
     url: https://ohdsi.github.io/CommonDataModel/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Observational health analytics data model; widely used for research.
 
   - id: snomed-ct
@@ -209,10 +196,9 @@ entries:
     version: periodic releases
     status: reference-terminology
     artifact_types: [terminology, code-system]
-    conformance: yes
-    evidence_maturity: production
     url: https://www.snomed.org/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Clinical terminology with licensing restrictions in many jurisdictions.
 
   - id: ceds
@@ -224,10 +210,9 @@ entries:
     version: ongoing
     status: open-model
     artifact_types: [vocabulary, data-dictionary]
-    conformance: partial
-    evidence_maturity: validated
     url: https://ceds.ed.gov/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Shared vocabulary for education; useful basis for profiles in education sector.
 
   - id: project-unicorn
@@ -239,10 +224,9 @@ entries:
     version: initiative
     status: adoption/advocacy
     artifact_types: [rubrics, certification-guidance]
-    conformance: no
-    evidence_maturity: experimental
     url: https://www.projectunicorn.org/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Ecosystem pledge and adoption resources; not a data model by itself.
 
   - id: ed-fi
@@ -254,10 +238,9 @@ entries:
     version: ongoing
     status: open-standard
     artifact_types: [data-model, api-spec]
-    conformance: yes
-    evidence_maturity: production
     url: https://docs.ed-fi.org/reference/data-exchange/data-standard/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Operational and analytical interoperability standard for K-12.
 
   - id: w3c-vc
@@ -269,10 +252,9 @@ entries:
     version: 2.0
     status: open-spec
     artifact_types: [data-model]
-    conformance: yes
-    evidence_maturity: production
     url: https://www.w3.org/TR/vc-data-model-2.0/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Foundation for portable, cryptographically verifiable claims.
 
   - id: credreg-ctdl
@@ -284,10 +266,9 @@ entries:
     version: ongoing
     status: open-vocabulary
     artifact_types: [vocabulary, registry]
-    conformance: partial
-    evidence_maturity: validated
     url: https://credreg.net/ctdl
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Vocabulary for credentials, skills and pathways; often used with verifiable credentials.
 
   - id: emrex
@@ -299,10 +280,9 @@ entries:
     version: ongoing
     status: open-initiative
     artifact_types: [schemas, tools]
-    conformance: partial
-    evidence_maturity: validated
     url: https://emrex.eu/
-    last_verified: 2026-10-19
+    editorial_status: draft
+    verification_status: not-reviewed
     notes: Learner-controlled exchange of academic results; useful for transcript portability.
 
 # End of registry
