@@ -36,3 +36,8 @@ Use public sources or explicitly authorised summaries. Do not publish private co
 
 ## Vendor and community assets
 Apply identical source and outcome requirements regardless of ownership. Record vendor ownership separately from regulatory status, public access, asset rights and runtime dependencies. A product capability description is not an implementation case. Do not infer a failure from product coupling or infer success from vendor adoption claims. See [classification rules](catalogue-classification.md).
+
+## Semantic models and populated graphs
+A published ontology, populated dataset and successful business implementation are different claims. Identify which is supported. Record schema and import versions, assertion provenance, dataset snapshot, runtime and intended query or decision.
+
+Do not infer correct metrics from a modelling product's availability, reliable facts from graph size, semantic agreement from RDF syntax, or cross-platform equivalence from a shared language. Require bounded evidence and describe unresolved mappings or coverage gaps.

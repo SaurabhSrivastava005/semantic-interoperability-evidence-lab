@@ -21,3 +21,6 @@ Record official sources, versions, jurisdiction, reuse terms and review dates. F
 
 ## Vendor models
 Browse [vendor models and semantic modelling products](../../registry/vendors/README.md). Industry guides link applicable discovery leads. Ownership and regulatory status are separate; inclusion does not establish implementation success.
+
+## Semantic and graph models
+Browse [semantic and knowledge assets](../../registry/semantic-and-knowledge-models.md) by category. Domain ontologies, analytical models and populated graphs answer different questions. Enterprise-specific graphs require authorised, sourced implementation records.

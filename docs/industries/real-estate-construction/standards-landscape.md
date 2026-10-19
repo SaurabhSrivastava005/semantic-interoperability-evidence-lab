@@ -33,3 +33,7 @@ This landscape lists discovery leads and candidate use cases. It does not establ
 ## Sourced record drafts
 [Building exchange guide](../../../use-cases/building-model-exchange.md), [GeoBIM case](../../../implementations/construction-geobim-ifc.md), [software interpretation exception](../../../exceptions/ifc-tool-interpretation.md) and [IFC source check](../../../registry/ifc.md).
 Independent editorial review is pending. Historical case outcomes do not establish current product performance.
+
+## Semantic and knowledge model discovery
+[Brick](../../../registry/ontologies/brick.md) and [RealEstateCore](../../../registry/ontologies/realestatecore.md) describe building concepts. [DTDL](../../../registry/technologies/dtdl.md) is a modelling language, not the building ontology itself.
+See the [semantic catalogue](../../../registry/semantic-and-knowledge-models.md). These are drafts; use-case outcomes have not been established.

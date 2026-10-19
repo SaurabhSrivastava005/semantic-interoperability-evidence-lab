@@ -21,3 +21,12 @@ Create a Markdown record from a template, submit through a pull request, apply t
 The earlier design mixed a knowledge catalogue with a platform product and benchmark programme. The current structure separates discovery, experience and exceptions without requiring users to install software. Existing industry paths are retained to preserve navigation. Earlier proposals are archived and do not count as implementation cases.
 
 The YAML catalogue remains discovery metadata. Individual profiles carry editorial assessment and source details; when both exist, keep the same stable standard ID and link them.
+
+## Catalogue subcollections
+- `registry/ontologies/`: domain ontologies, vocabularies and industry information models.
+- `registry/analytics/`: analytical semantic modelling systems.
+- `registry/knowledge-graphs/`: published graph datasets.
+- `registry/technologies/`: modelling languages and execution platforms.
+- `registry/vendors/`: existing vendor-owned model profiles.
+
+An asset has one canonical profile and catalogue ID even when multiple browse pages link it. LookML remains in the vendor directory and is cross-linked from the semantic catalogue.

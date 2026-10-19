@@ -39,3 +39,13 @@ Use [classification rules](../docs/catalogue-classification.md). Do not infer ri
 - Implementation cases:
 - Exceptions:
 ## Open questions and change history
+
+## Additional fields for semantic and knowledge assets
+- Definition/schema versus populated assertions versus language/runtime:
+- Ontology modules, imported vocabularies and reasoning/validation regime:
+- Authored metric definitions, grain, joins and calculation context:
+- Dataset snapshot or item revision, provenance and freshness:
+- Local extensions, disputed concepts and missing mappings:
+- Runtime, query interface and version compatibility:
+- Separate rights for schema, data, tools and service:
+Do not fill unknown fields with assumptions; use not assessed or not applicable with a reason.
