@@ -6,7 +6,7 @@ This landscape covers clinical exchange, health records, terminology, observatio
 
 ## Standards and models
 
-| Standard or framework | Primary purpose | Availability and boundary | SIEL treatment |
+| Standard or framework | Primary purpose | Availability and boundary | Potential relevance to investigate |
 |---|---|---|---|
 | [HL7 FHIR](https://hl7.org/fhir/) | Exchange healthcare information through modular resources and APIs | Public specification with implementation guides, profiles and open reference implementations | Use as the primary exchange foundation where suitable |
 | HL7 Version 2 | Clinical messaging, especially within hospitals and laboratories | Widely implemented with local variation | Build explicit profiles and test local segments and codes |
@@ -18,7 +18,7 @@ This landscape covers clinical exchange, health records, terminology, observatio
 | [CDISC](https://www.cdisc.org/standards) | Clinical research data | Governed standards with access and membership considerations | Evaluate for clinical-trial and regulatory research profiles |
 | [FAIR Principles](https://www.go-fair.org/fair-principles/) | Research data and metadata quality | Principles rather than a model or protocol | Apply to research datasets and evidence packages |
 
-## Priority SIEL profiles
+## Candidate use cases for evidence collection
 
 1. Patient and encounter exchange across two FHIR implementations.
 2. Laboratory result exchange across HL7 Version 2 and FHIR.
@@ -27,3 +27,10 @@ This landscape covers clinical exchange, health records, terminology, observatio
 5. Research dataset publication using FAIR metadata and provenance.
 
 Clinical meaning must be approved by delegated clinical authorities. Technical maintainers alone cannot approve clinical semantics.
+
+## Evidence status
+This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Sourced record drafts
+[Research guide](../../../use-cases/observational-health-research.md), [EHDEN case](../../../implementations/healthcare-ehden-omop.md), [flowsheet case](../../../implementations/healthcare-flowsheet-omop.md) and [OMOP source check](../../../registry/omop-cdm.md).
+Independent editorial review is pending. Historical case outcomes do not establish current product performance.

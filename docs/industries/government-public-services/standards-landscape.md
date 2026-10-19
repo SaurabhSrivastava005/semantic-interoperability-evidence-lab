@@ -6,7 +6,7 @@ This landscape covers cross-agency exchange, public data catalogues, digital ide
 
 ## Standards and models
 
-| Standard or framework | Primary purpose | Availability and boundary | SIEL treatment |
+| Standard or framework | Primary purpose | Availability and boundary | Potential relevance to investigate |
 |---|---|---|---|
 | [NIEM](https://www.niem.gov/) | Cross-agency information exchange | Public model, governance and tools | Evaluate for message and domain-profile patterns |
 | [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/) | Interoperable data catalogues | Public W3C vocabulary | Use for dataset and data-service discovery |
@@ -17,7 +17,7 @@ This landscape covers cross-agency exchange, public data catalogues, digital ide
 | [Schema.org](https://schema.org/) | Cross-domain web vocabulary | Public vocabulary and machine-readable definitions | Use selected public-facing concepts |
 | [PROV-O](https://www.w3.org/TR/prov-o/) | Provenance | Public W3C ontology | Record source and transformation history |
 
-## Priority SIEL profiles
+## Candidate use cases for evidence collection
 
 1. Cross-agency person and organisation exchange.
 2. Public dataset discovery and provenance.
@@ -25,4 +25,7 @@ This landscape covers cross-agency exchange, public data catalogues, digital ide
 4. Secure service-request status exchange.
 5. Policy and regulatory evidence publication.
 
-Profiles must separate lawful authority, purpose, consent, public access, protected information and jurisdiction.
+Case records should separate lawful authority, purpose, consent, public access, protected information and jurisdiction.
+
+## Evidence status
+This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).

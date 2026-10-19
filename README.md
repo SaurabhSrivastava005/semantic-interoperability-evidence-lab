@@ -1,74 +1,38 @@
 # Semantic Interoperability Evidence Lab
+**Find standards. Understand exceptions. Learn from implementation evidence.**
 
-**Evidence before standards.**
-
-The Semantic Interoperability Evidence Lab, or SIEL, is an open, industry-focused research and engineering initiative that tests how existing standards, semantic models, data contracts and AI-assisted mappings perform across systems, organisations and AI agents.
-
-SIEL is developing a unified implementation and evidence platform. It discovers what already exists, records reuse constraints, creates minimal Industry Interoperability Profiles, validates mappings and publishes evidence before an approach is described as proven.
-
-## The problem
-
-Large common and canonical data models often attempt to standardise too much before delivering operational value. Industries differ in regulation, terminology, evidence requirements and operating models. AI increases the need for precise, machine-readable meaning, but it does not remove the need for accountable governance.
-
-SIEL starts with an industry problem, reuses authoritative standards where possible, defines the minimum shared meaning required for a use case and tests the result through implementation.
-
-## Architecture
-
-SIEL uses six independently adoptable layers:
-
-1. **Semantic Kernel**: a small set of stable cross-industry concepts.
-2. **Industry Semantic Pack**: industry language, rules, relationships and events.
-3. **Use-Case Contract**: the minimum governed information required for a business exchange.
-4. **Source Mapping**: mappings from local systems to an approved contract.
-5. **Agent Context and Policy**: machine-readable meaning, provenance, quality and permitted use.
-6. **Evidence and Conformance**: tests for semantic accuracy, portability and operational value.
-
-## Initial industry portfolio
-
-- Higher Education and VET
-- Healthcare and Life Sciences
-- Banking and Financial Services
-- Energy and Utilities
-- Real Estate and Construction
-- Government and Public Services
-- Manufacturing and Supply Chain
-- Retail and Consumer
-
-Industry packs begin only when credible contributors, a measurable problem and a testable use case are available.
-
-## Repository status
-
-SIEL is at **E0: Concept**. The charter is open for review. Nothing in this repository should yet be described as an adopted industry standard.
+SIEL is an open, curated hub that brings standards, semantic models, knowledge graphs, data contracts and implementation experience into one place. Organised by industry and use case, it helps users understand what is relevant, where implementations have met their objectives, what required adaptation and what remains unresolved.
 
 ## Start here
+- [Browse eight industry guides](docs/industries/README.md)
+- [Browse the standards catalogue](registry/README.md)
+- [Explore use cases](use-cases/README.md)
+- [Read implementation cases](implementations/README.md)
+- [Find exceptions and limitations](exceptions/README.md)
+- [Understand evidence labels](docs/evidence-policy.md)
+- [Contribute a source or experience](CONTRIBUTING.md)
 
-- [Founding Charter](CHARTER.md)
-- [Standards and Open Initiatives Landscape](docs/standards-landscape.md)
-- [Industry Standards Landscapes](docs/industries/README.md)
-- [Industry Initiatives](initiatives/README.md)
-- [Healthcare Semantic Fidelity Benchmark](initiatives/healthcare-semantic-fidelity-benchmark/README.md)
-- [Unified Platform Blueprint](docs/unified-platform-blueprint.md)
-- [Governance](GOVERNANCE.md)
-- [Contributing](CONTRIBUTING.md)
-- [Roadmap](ROADMAP.md)
-- [Security](SECURITY.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
+## What users should be able to answer
+1. Which standards are relevant to my industry, jurisdiction and use case?
+2. Where have they been implemented, with what outcome and supporting evidence?
+3. What local differences, exceptions, extensions and maintenance costs arose?
+4. What did not meet requirements, and what remains untested or uncertain?
 
-## How SIEL is different
+## Current coverage
+Eight industry landscapes and a starter YAML catalogue are available. Catalogue entries are discovery leads, not verified recommendations. Four sourced implementation drafts, four linked exception drafts and three use-case guides are available across healthcare, education and construction. Independent editorial review is pending. Proposed use cases are not evidence of successful adoption. See the [verification log](docs/source-verification.md) for checked sources and remaining gaps.
 
-SIEL does not create another universal ontology or canonical data model. It provides a unified layer for:
+## How records connect
+An industry guide links to standards and use cases. A use case links to implementation cases. Cases link to the standards and versions used, supporting sources and any exception records. Readers can follow the evidence behind a conclusion.
 
-- discovering and classifying existing standards;
-- creating minimal, use-case-specific interoperability profiles;
-- mapping across standards and source systems;
-- packaging contracts, policies and agent-ready context;
-- running reproducible conformance tests; and
-- publishing positive and negative implementation evidence.
+We distinguish successful within stated scope, partially successful, unsuccessful for the stated use case, inconclusive and not evaluated. Missing public evidence does not establish failure. A reported experience is not independent verification.
+
+## Scope
+SIEL curates and assesses published information and authorised contributor experience. It does not build a software platform, universal model, mapping workbench or certification service. Official stewards remain the authority for their standards.
+
+## Project
+[Charter](CHARTER.md) · [Structure](docs/repository-structure.md) · [Governance](GOVERNANCE.md) · [Roadmap](ROADMAP.md) · [Security](SECURITY.md)
+
+Earlier platform and benchmark proposals are [archived](archive/README.md) and are not current delivery commitments.
 
 ## Licensing
-
-Documentation, diagrams, templates and research publications are licensed under [CC BY 4.0](LICENSES/README.md). Generic software, schemas and validation tools are licensed under [Apache License 2.0](LICENSES/Apache-2.0.txt).
-
-Third-party standards and externally owned content are excluded unless redistribution is explicitly permitted.
-
-External reference models may be cited or mapped only within their licence terms. Restricted assets must not become mandatory dependencies of SIEL profiles, and copying, adaptation or bundling requires explicit permission where the source terms demand it.
+SIEL-authored documentation, templates and research summaries use [CC BY 4.0](LICENSES/README.md). Generic software and schemas use [Apache-2.0](LICENSES/Apache-2.0.txt). External standards and source publications retain their own terms. Link and summarise within permitted limits; public access does not imply redistribution rights.

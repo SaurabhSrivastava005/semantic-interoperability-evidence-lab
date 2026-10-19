@@ -6,7 +6,7 @@ This landscape covers electricity networks, markets, metering, customer usage, d
 
 ## Standards and models
 
-| Standard or framework | Primary purpose | Availability and boundary | SIEL treatment |
+| Standard or framework | Primary purpose | Availability and boundary | Potential relevance to investigate |
 |---|---|---|---|
 | IEC Common Information Model | Electricity network and market information | International standards commonly subject to IEC licensing | Reference official versions and avoid redistribution without permission |
 | [OpenADR](https://www.openadr.org/) | Automated demand response | Specifications, certification and implementations | Build event and conformance profiles |
@@ -16,7 +16,7 @@ This landscape covers electricity networks, markets, metering, customer usage, d
 | [Asset Administration Shell](https://industrialdigitaltwin.org/en/content-hub/aasspecifications) | Digital representation of industrial assets | Public specifications and open implementations | Evaluate asset lifecycle and digital-twin profiles |
 | [Project Haystack](https://project-haystack.org/) | Semantic tagging for equipment and telemetry | Open community specifications and tools | Evaluate for facility and operational-technology mappings |
 
-## Priority SIEL profiles
+## Candidate use cases for evidence collection
 
 1. Meter-to-bill data lineage.
 2. Customer energy-usage portability.
@@ -24,4 +24,7 @@ This landscape covers electricity networks, markets, metering, customer usage, d
 4. Network asset and telemetry reconciliation.
 5. Energy asset maintenance and digital-twin exchange.
 
-Operational-technology safety, critical-infrastructure security and jurisdictional market rules must be explicit profile controls.
+Operational-technology safety, critical-infrastructure security and jurisdictional market rules must be explicit context in case records.
+
+## Evidence status
+This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).

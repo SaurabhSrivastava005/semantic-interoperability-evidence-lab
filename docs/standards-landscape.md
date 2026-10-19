@@ -21,7 +21,7 @@ The word "open" can describe different things. SIEL distinguishes them explicitl
 | Conformance program | Tests or certification are available, sometimes only to members |
 | Regulatory specification | A government-defined collection or exchange requirement, not necessarily an open-source model |
 
-Availability must be verified for every profile. Public access does not automatically grant unrestricted reuse.
+Availability must be checked for each referenced version. Public access does not automatically grant unrestricted reuse.
 
 ## Priority education, research and health frameworks
 
@@ -41,7 +41,7 @@ Project Unicorn and Ed-Fi are listed separately because they solve different par
 |---|---|---|---|---|
 | [Open Semantic Interchange](https://open-semantic-interchange.github.io/osi-website/) | Open Semantic Interchange community | Exchange of semantic models across analytics, BI and AI platforms | Public specification work and GitHub repositories | Treat as a semantic model interchange candidate, not a competing initiative |
 | [FIWARE Smart Data Models](https://smartdatamodels.org/) | FIWARE, IUDX, TM Forum, OASC and contributors | Harmonised models across smart domains | Open repositories, schemas, examples and JSON-LD contexts | Reuse suitable domain models and test portability |
-| [Schema.org](https://schema.org/) | Schema.org community | Cross-domain vocabulary for entities, relationships and actions | Public vocabulary, extension process and machine-readable definitions | Source selected kernel concepts and web-facing mappings |
+| [Schema.org](https://schema.org/) | Schema.org community | Cross-domain vocabulary for entities, relationships and actions | Public vocabulary, extension process and machine-readable definitions | Find published uses and contextual differences |
 | [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/) | Bitol community | Machine-readable data contracts | Apache 2.0 YAML specification, examples and supporting libraries | Adopt or profile instead of creating another generic contract format |
 | [W3C Semantic Web standards](https://www.w3.org/2001/sw/wiki/Main_Page) | W3C | Semantic representation, linked data, vocabularies and queries | RDF, OWL, JSON-LD, SKOS, SPARQL and related recommendations | Use as the semantic foundation where appropriate |
 | [SHACL](https://www.w3.org/TR/shacl/) | W3C | Validation of RDF graphs | Public recommendation and implementations | Express deterministic semantic conformance rules |
@@ -69,7 +69,7 @@ Higher education has several partially overlapping layers. No single initiative 
 
 #### CAUDIT HERM reuse boundary
 
-CAUDIT HERM can inform SIEL, but its current terms can create future constraints for an openly licensed platform and for commercial adopters. The CAUDIT page states that the models are available under CC BY-NC-SA 4.0 and also states restrictions concerning commercial use, bundling, sublicensing and passing the models to other organisations.
+CAUDIT HERM can inform SIEL, but its current terms can create future constraints for an openly licensed knowledge hub and its users. The CAUDIT page states that the models are available under CC BY-NC-SA 4.0 and also states restrictions concerning commercial use, bundling, sublicensing and passing the models to other organisations.
 
 | Proposed action | Risk | SIEL policy |
 |---|---|---|
@@ -207,64 +207,13 @@ These are authoritative reporting specifications. They are not automatically reu
 | [Interoperable Europe](https://interoperable-europe.ec.europa.eu/) | Public-sector interoperability | Frameworks, reusable solutions and community assets |
 | [X-Road](https://x-road.global/) | Secure distributed data exchange | Open-source platform and governance model |
 
-## 4. What the landscape reveals
+## 4. How to use this landscape
+This is discovery material, not a comparative effectiveness study. Availability and licensing descriptions require checking against current official terms. Descriptions of possible mappings or profiles are candidate uses, not commitments for SIEL to implement them.
 
-The problem is not a lack of standards. The problem is fragmentation across six boundaries:
+For a business problem, consult the [industry guides](industries/README.md), then link relevant standards to a [use-case record](../use-cases/README.md). Collect [implementation evidence](../implementations/README.md) and [exceptions](../exceptions/README.md) rather than infer outcomes from a specification.
 
-1. **Standards are organised by different units.** Some describe entities, others events, messages, APIs, credentials, architecture or regulatory collections.
-2. **Availability differs.** A public webpage, open specification, reusable model and open-source implementation are not equivalent.
-3. **The same concept has multiple authoritative representations.** Student, customer, asset, credential, organisation and location are defined differently across contexts.
-4. **Implementation evidence is inconsistent.** Many initiatives publish specifications but not comparable time, cost, mapping accuracy or maintenance results.
-5. **AI use is usually an extension, not the original design centre.** Existing standards rarely package the complete context, policy, provenance and uncertainty an AI agent needs.
-6. **Cross-standard mappings are scattered.** Mappings are often local, undocumented, vendor-controlled or difficult to test.
+## 5. SIEL's contribution
+Consolidate scattered references and explain their applicability, evidence and limitations. SIEL records reported costs, maintenance effort, version differences and unresolved requirements when sources support them. It does not generate normative profiles, run a platform or certify standards.
 
-## 5. How SIEL is different
-
-SIEL is not another universal ontology, canonical data model, message standard or data-space protocol.
-
-SIEL provides a unified implementation and evidence layer that:
-
-- discovers and classifies existing standards;
-- records licensing, governance, maturity and availability;
-- selects authoritative sources for a defined use case;
-- creates minimal Industry Interoperability Profiles;
-- maps across existing models without replacing them;
-- generates machine-readable contracts, context and validation;
-- separates AI-proposed mappings from human-approved rules;
-- tests profiles against multiple source structures;
-- records failures, disputes and limitations;
-- measures implementation and maintenance outcomes; and
-- publishes comparable evidence before describing an approach as proven.
-
-## 6. Relationship model
-
-| Existing asset | SIEL action | SIEL does not do |
-|---|---|---|
-| Ontology or vocabulary | Reference, profile, map and test | Fork without need or claim ownership |
-| API or message standard | Create use-case conformance profile and fixtures | Replace a mature exchange protocol |
-| Data contract standard | Adopt and extend through a declared profile | Invent another generic contract syntax |
-| Regulatory collection | Represent authoritative definitions and validation lineage | Reinterpret legal obligations without authority |
-| Reference architecture | Connect capabilities and data concepts to executable profiles | Present architecture diagrams as implementation evidence |
-| Dataspace connector | Attach semantic, policy and evidence profiles | Rebuild transport and connector infrastructure |
-| AI mapping tool | Benchmark proposals and preserve human approvals | Treat probabilistic output as semantic truth |
-
-## 7. Registry requirements
-
-Every initiative record should eventually include:
-
-- canonical name and steward;
-- official source URL;
-- scope and jurisdiction;
-- artifact types;
-- access and licensing classification;
-- current version and release date;
-- governance and contribution process;
-- conformance or certification availability;
-- implementation references;
-- known overlaps and mappings;
-- semantic authority level;
-- evidence maturity level;
-- AI suitability and limitations; and
-- last verification date.
-
-This register should become machine-readable and be updated through reviewed pull requests.
+## 6. Record requirements
+Use [the standard template](../templates/standard.md) and [evidence policy](evidence-policy.md). Keep official source, steward, version, jurisdiction, reuse terms and review status separate from implementation outcomes. A standard can be mature while a particular use case remains unevaluated.

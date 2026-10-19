@@ -1,24 +1,12 @@
 ---
-name: Design proposal
-about: Propose a kernel, specification, contract or industry-pack change
-title: "[Design] "
-labels: "design, needs-evidence"
+name: Catalogue or editorial improvement
+about: Suggest a standard, use case, source correction or navigation improvement
+title: "[Catalogue] "
 assignees: ""
 ---
-
-## Problem
-
-## Proposed layer
-
-## Proposed change
-
-## Alternatives considered
-
-## Evidence
-
-## Compatibility impact
-
-## Validation plan
-
+## User question or problem
+## Proposed record or change
+## Official and supporting sources
+## Related industry and use case
+## Versions, jurisdiction and limitations
 ## Conflicts of interest
-

@@ -6,7 +6,7 @@ This landscape covers product identity, catalogues, orders, inventory, supply-ch
 
 ## Standards and models
 
-| Standard or framework | Primary purpose | Availability and boundary | SIEL treatment |
+| Standard or framework | Primary purpose | Availability and boundary | Potential relevance to investigate |
 |---|---|---|---|
 | [GS1 standards](https://www.gs1.org/standards) | Product, location, party and logistics identification | Public standards and services under GS1 governance | Use authoritative identifiers and record service dependencies |
 | [GS1 EPCIS and CBV](https://www.gs1.org/standards/epcis) | Supply-chain visibility events | Public event standard and core vocabulary | Use for traceability and custody-event profiles |
@@ -16,7 +16,7 @@ This landscape covers product identity, catalogues, orders, inventory, supply-ch
 | [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model-2.0/) | Verifiable digital claims | Public data model | Evaluate for warranties, provenance and consumer claims |
 | [UN/CEFACT](https://unece.org/trade/uncefact) | Trade and commerce semantics | Public recommendations, models and artifacts | Map trade documents and cross-border concepts |
 
-## Priority SIEL profiles
+## Candidate use cases for evidence collection
 
 1. Product catalogue and offer exchange.
 2. Inventory availability across channels.
@@ -25,3 +25,6 @@ This landscape covers product identity, catalogues, orders, inventory, supply-ch
 5. Customer-permissioned preference portability.
 
 Customer identity, consent, permitted purpose, retention and jurisdiction must be explicit. SIEL should not create a universal customer profile.
+
+## Evidence status
+This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).

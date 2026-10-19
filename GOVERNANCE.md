@@ -1,48 +1,28 @@
-# Governance
+# Editorial Governance
+## Responsibility
+Repository maintainers act as interim editors. This does not imply that an independent council or industry working group has been appointed. Public review decisions must identify their author and reviewer.
 
-## Purpose
+Editors maintain record structure, sources, status and corrections. Domain reviewers assess interpretations within their expertise. Neither role overrides an official standards steward, regulator or organisation's authority.
 
-SIEL governance protects three qualities: industry authority, technical openness and evidence-based decision-making.
+## Publication
+1. Submit a record or correction with sources and conflicts of interest.
+2. Check scope, provenance, publication rights and source quality.
+3. Seek domain review for material semantic or regulatory interpretations.
+4. Record the outcome, uncertainty and reviewer in the pull request.
+5. Mark as accepted only after a reviewer other than the author approves it. Until then it remains draft or submitted.
 
-## Core Council
+Unsupported submissions may be retained as clearly labelled unverified reports only if publication is authorised and the uncertainty is explicit. They cannot support a verified conclusion.
 
-The Core Council maintains the semantic kernel, common specifications, compatibility rules and cross-industry quality controls. It cannot unilaterally define industry-specific meaning.
+## Disputes and corrections
+Open a sourced issue identifying the record and disputed claim. Mark material disputed conclusions as disputed while reviewed. Preserve the original source attribution and record corrections, supersession or withdrawal. A right of response does not give a vendor or sponsor a veto over supported negative findings.
 
-Initial maintainers may act as the interim Core Council until a broader group is appointed. Interim status must be identified publicly.
-
-## Industry Working Groups
-
-Each industry pack is governed by its own working group. A group should include operating organisations, domain experts, data and architecture practitioners, policy or regulatory specialists where appropriate, technology providers and independent reviewers.
-
-No single vendor, consulting organisation or product community may control an industry pack.
-
-## Use-Case Teams
-
-Small use-case teams create contracts and implementation evidence. Each team must define:
-
-- the operational problem;
-- current baseline;
-- participating producers and consumers;
-- minimum semantic scope;
-- measures of success;
-- known conflicts of interest; and
-- publication plan.
-
-## Decision process
-
-Material decisions require an Architecture Decision Record in `decision-records/`. Each record must state the problem, alternatives, evidence, affected parties, conflicts of interest, decision and reconsideration conditions.
-
-Consensus is preferred. Where consensus cannot be reached, maintainers may accept a decision after documenting objections. Affected industry working groups retain authority over their pack, subject to interoperability, licensing and quality requirements.
-
-## Evidence and negative findings
-
-Failed pilots, rejected mappings and evidence against a proposed design are valid outputs. Results must not be withheld because they are unfavourable.
-
-## Releases
-
-Specifications and industry packs use semantic versioning where practical. Breaking semantic changes require migration guidance. Deprecated concepts must remain traceable to their replacements.
+Material editorial policy decisions belong in [decision records](decision-records/README.md). Record affected content, alternatives, rationale, dissent and reconsideration conditions.
 
 ## Conflicts of interest
+Authors and reviewers disclose employment, commercial, funding and product interests. Contributors must not independently approve their own submissions. Conflicted review must be visible and an additional unconflicted reviewer sought for disputed conclusions.
 
-Contributors must disclose commercial, employment or product interests that could reasonably affect a design or evaluation decision.
+## Review cycle
+Review accepted records at least annually, sooner when a source changes, a correction arrives or a relevant version changes. Mark overdue records as needing review. Review dates indicate an editorial check, not proof of continuing production use.
 
+## Claims
+Apply [the evidence policy](docs/evidence-policy.md). Do not describe editorial acceptance as conformance certification, regulatory approval or endorsement.
