@@ -1,0 +1,308 @@
+# SIEL Registry Index
+# Machine-readable registry of initiatives, standards and models for SIEL
+# Generated: 2026-10-19
+# Fields: id, title, domain, steward, license, jurisdiction, version, status, artifact_types, conformance, evidence_maturity, url, last_verified, notes
+
+registry_version: 1
+entries:
+  - id: osi
+    title: Open Semantic Interchange
+    domain: cross-industry
+    steward: Open Semantic Interchange community
+    license: varies; see source
+    jurisdiction: international
+    version: unknown
+    status: open-model
+    artifact_types: [vocabulary, examples]
+    conformance: no
+    evidence_maturity: experimental
+    url: https://open-semantic-interchange.github.io/osi-website/
+    last_verified: 2026-10-19
+    notes: Community initiative for exchanging semantic models across analytics, BI and AI platforms.
+
+  - id: fiware-smart-data-models
+    title: FIWARE Smart Data Models
+    domain: cross-industry / smart domains
+    steward: FIWARE / IUDX / TM Forum / OASC
+    license: varies; schemas typically open (see source)
+    jurisdiction: international
+    version: multiple
+    status: open-model
+    artifact_types: [json-schema, examples]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://smartdatamodels.org/
+    last_verified: 2026-10-19
+    notes: Harmonised models across smart domains; good source of reusable JSON models.
+
+  - id: schema-org
+    title: Schema.org
+    domain: cross-industry
+    steward: Schema.org community
+    license: varies; see source
+    jurisdiction: international
+    version: ongoing
+    status: open-vocabulary
+    artifact_types: [vocabulary, ontology]
+    conformance: no
+    evidence_maturity: production
+    url: https://schema.org/
+    last_verified: 2026-10-19
+    notes: Broad cross-domain vocabulary; useful for general entity/relationship modelling.
+
+  - id: odcs
+    title: Open Data Contract Standard
+    domain: cross-industry / data contracts
+    steward: Bitol community
+    license: Apache-2.0
+    jurisdiction: international
+    version: unspecified
+    status: open-spec
+    artifact_types: [yaml spec, examples]
+    conformance: partial
+    evidence_maturity: experimental
+    url: https://bitol-io.github.io/open-data-contract-standard/
+    last_verified: 2026-10-19
+    notes: Machine-readable data contracts; SIEL references for contract packaging.
+
+  - id: w3c-semantic-web
+    title: W3C Semantic Web Standards (RDF/OWL/JSON-LD/SPARQL)
+    domain: cross-industry
+    steward: W3C
+    license: W3C Document License (see source)
+    jurisdiction: international
+    version: recommendations (various)
+    status: open-standards
+    artifact_types: [ontology, serialization, query]
+    conformance: yes
+    evidence_maturity: production
+    url: https://www.w3.org/2001/sw/wiki/Main_Page
+    last_verified: 2026-10-19
+    notes: Foundational linked-data standards; key for machine-readable profiles.
+
+  - id: shacl
+    title: SHACL
+    domain: cross-industry / semantic validation
+    steward: W3C
+    license: W3C Document License
+    jurisdiction: international
+    version: recommendation (2017)
+    status: open-standards
+    artifact_types: [shapes, validation-rules]
+    conformance: yes
+    evidence_maturity: production
+    url: https://www.w3.org/TR/shacl/
+    last_verified: 2026-10-19
+    notes: Express deterministic semantic conformance rules for RDF graphs.
+
+  - id: dcat3
+    title: DCAT 3
+    domain: cross-industry / data catalogues
+    steward: W3C
+    license: W3C Document License
+    jurisdiction: international
+    version: 3
+    status: open-vocabulary
+    artifact_types: [rdf-vocabulary]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://www.w3.org/TR/vocab-dcat-3/
+    last_verified: 2026-10-19
+    notes: Useful for describing datasets, services and profile assets in registries.
+
+  - id: prov-o
+    title: PROV-O
+    domain: provenance
+    steward: W3C
+    license: W3C Document License
+    jurisdiction: international
+    version: 1.0
+    status: open-ontology
+    artifact_types: [ontology]
+    conformance: yes
+    evidence_maturity: production
+    url: https://www.w3.org/TR/prov-o/
+    last_verified: 2026-10-19
+    notes: Provenance ontology for recording origin and transformations of mappings and evidence.
+
+  - id: odrl
+    title: ODRL
+    domain: policy / rights
+    steward: W3C
+    license: W3C Document License
+    jurisdiction: international
+    version: recommendation
+    status: open-ontology
+    artifact_types: [policy-vocabulary]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://www.w3.org/TR/odrl-model/
+    last_verified: 2026-10-19
+    notes: Represent machine-readable usage policies where suitable.
+
+  - id: fair-principles
+    title: FAIR Principles
+    domain: research / data stewardship
+    steward: FAIR community / GO-FAIR
+    license: CC BY or community terms
+    jurisdiction: international
+    version: principles
+    status: guidance
+    artifact_types: [principles, guidance]
+    conformance: no
+    evidence_maturity: production
+    url: https://www.go-fair.org/fair-principles/
+    last_verified: 2026-10-19
+    notes: Guiding principles for findability, accessibility, interoperability and reuse.
+
+  - id: hl7-fhir
+    title: HL7 FHIR
+    domain: healthcare
+    steward: HL7 International
+    license: see HL7 policies (public specification with terms)
+    jurisdiction: international
+    version: R4/R5 (varies)
+    status: open-spec
+    artifact_types: [data-models, api-spec]
+    conformance: yes (conformance frameworks exist)
+    evidence_maturity: production
+    url: https://hl7.org/fhir/
+    last_verified: 2026-10-19
+    notes: Widely used clinical and administrative data exchange standard; licensing and IP require verification per use.
+
+  - id: openehr
+    title: openEHR
+    domain: healthcare
+    steward: openEHR Foundation
+    license: openEHR licences (varies)
+    jurisdiction: international
+    version: specifications (various)
+    status: open-spec
+    artifact_types: [archetypes, templates]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://specifications.openehr.org/
+    last_verified: 2026-10-19
+    notes: Clinically governed models and archetypes; good for deep clinical semantics.
+
+  - id: omop-cdm
+    title: OMOP Common Data Model
+    domain: healthcare / research
+    steward: OHDSI
+    license: open (see OHDSI)
+    jurisdiction: international
+    version: 6.x
+    status: open-model
+    artifact_types: [data-model, vocabularies]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://ohdsi.github.io/CommonDataModel/
+    last_verified: 2026-10-19
+    notes: Observational health analytics data model; widely used for research.
+
+  - id: snomed-ct
+    title: SNOMED CT
+    domain: healthcare / clinical terminology
+    steward: SNOMED International
+    license: territory-specific (see steward)
+    jurisdiction: global (licensing varies by territory)
+    version: periodic releases
+    status: reference-terminology
+    artifact_types: [terminology, code-system]
+    conformance: yes
+    evidence_maturity: production
+    url: https://www.snomed.org/
+    last_verified: 2026-10-19
+    notes: Clinical terminology with licensing restrictions in many jurisdictions.
+
+  - id: ceds
+    title: Common Education Data Standards (CEDS)
+    domain: education
+    steward: U.S. Department of Education / CEDS community
+    license: see source (public model)
+    jurisdiction: primarily US
+    version: ongoing
+    status: open-model
+    artifact_types: [vocabulary, data-dictionary]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://ceds.ed.gov/
+    last_verified: 2026-10-19
+    notes: Shared vocabulary for education; useful basis for profiles in education sector.
+
+  - id: project-unicorn
+    title: Project Unicorn
+    domain: education (K-12)
+    steward: Project Unicorn community
+    license: varies
+    jurisdiction: primarily US
+    version: initiative
+    status: adoption/advocacy
+    artifact_types: [rubrics, certification-guidance]
+    conformance: no
+    evidence_maturity: experimental
+    url: https://www.projectunicorn.org/
+    last_verified: 2026-10-19
+    notes: Ecosystem pledge and adoption resources; not a data model by itself.
+
+  - id: ed-fi
+    title: Ed-Fi Data Standard
+    domain: education (K-12)
+    steward: Ed-Fi Alliance
+    license: open-source (see project)
+    jurisdiction: primarily US
+    version: ongoing
+    status: open-standard
+    artifact_types: [data-model, api-spec]
+    conformance: yes
+    evidence_maturity: production
+    url: https://docs.ed-fi.org/reference/data-exchange/data-standard/
+    last_verified: 2026-10-19
+    notes: Operational and analytical interoperability standard for K-12.
+
+  - id: w3c-vc
+    title: W3C Verifiable Credentials
+    domain: credentials / identity
+    steward: W3C
+    license: W3C Document License
+    jurisdiction: international
+    version: 2.0
+    status: open-spec
+    artifact_types: [data-model]
+    conformance: yes
+    evidence_maturity: production
+    url: https://www.w3.org/TR/vc-data-model-2.0/
+    last_verified: 2026-10-19
+    notes: Foundation for portable, cryptographically verifiable claims.
+
+  - id: credreg-ctdl
+    title: Credential Transparency Description Language (CTDL)
+    domain: credentials / learning
+    steward: Credential Engine / credreg.net
+    license: open (see steward)
+    jurisdiction: international
+    version: ongoing
+    status: open-vocabulary
+    artifact_types: [vocabulary, registry]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://credreg.net/ctdl
+    last_verified: 2026-10-19
+    notes: Vocabulary for credentials, skills and pathways; often used with verifiable credentials.
+
+  - id: emrex
+    title: EMREX
+    domain: education / mobility
+    steward: EMREX community
+    license: open-source
+    jurisdiction: Europe (primarily)
+    version: ongoing
+    status: open-initiative
+    artifact_types: [schemas, tools]
+    conformance: partial
+    evidence_maturity: validated
+    url: https://emrex.eu/
+    last_verified: 2026-10-19
+    notes: Learner-controlled exchange of academic results; useful for transcript portability.
+
+# End of registry
