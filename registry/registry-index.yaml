@@ -177,15 +177,17 @@ entries:
     title: OMOP Common Data Model
     domain: healthcare / research
     steward: OHDSI
-    license: open (see OHDSI)
+    license: "documentation CC-BY-SA-4.0 unless otherwise specified; R package Apache-2.0; vocabulary terms separate"
     jurisdiction: international
-    version: 6.x
+    version: "5.5 (official site observed 2026-10-19)"
     status: open-model
     artifact_types: [data-model, vocabularies]
     url: https://ohdsi.github.io/CommonDataModel/
     editorial_status: draft
-    verification_status: not-reviewed
-    notes: Observational health analytics data model; widely used for research.
+    verification_status: source-checked-partial
+    profile: omop-cdm.md
+    source_checked_on: 2026-10-19
+    notes: See profile for checked sources, scope and separate documentation, software and vocabulary terms.
 
   - id: snomed-ct
     title: SNOMED CT
@@ -275,14 +277,48 @@ entries:
     title: EMREX
     domain: education / mobility
     steward: EMREX community
-    license: open-source
+    license: "component-specific; ELMO v2.1.2 has MIT and EUPL-1.2 files; applicability unresolved"
     jurisdiction: Europe (primarily)
-    version: ongoing
+    version: "network unspecified; inspected ELMO schema tag v2.1.2"
     status: open-initiative
     artifact_types: [schemas, tools]
     url: https://emrex.eu/
     editorial_status: draft
-    verification_status: not-reviewed
+    verification_status: source-checked-partial
+    profile: emrex-elmo.md
+    source_checked_on: 2026-10-19
     notes: Learner-controlled exchange of academic results; useful for transcript portability.
+
+  - id: ifc
+    title: Industry Foundation Classes
+    domain: real-estate-construction
+    steward: buildingSMART International
+    license: "CC-BY-ND-4.0 in inspected development licence; exact released artifact terms require confirmation"
+    jurisdiction: international
+    version: "IFC2x3 and IFC4 in historical case; IFC4.3 rights check partial"
+    status: standard
+    artifact_types: [data-model, exchange-schema]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    profile: ifc.md
+    source_checked_on: 2026-10-19
+    url: https://technical.buildingsmart.org/standards/IFC/
+    notes: Historical benchmark findings must not be projected onto current products.
+
+  - id: caudit-herm
+    title: CAUDIT Higher Education Reference Models
+    domain: higher-education
+    steward: CAUDIT
+    license: "CC-BY-NC-SA-4.0 plus stated usage conditions; see profile"
+    jurisdiction: international-higher-education
+    version: "3.2.0 listed on inspected official page"
+    status: reference-model
+    artifact_types: [reference-model]
+    editorial_status: draft
+    verification_status: source-checked-partial
+    profile: caudit-herm.md
+    source_checked_on: 2026-10-19
+    url: https://www.caudit.edu.au/communities/caudit-higher-education-reference-models
+    notes: No distribution files copied; release-note clarifications not inspected.
 
 # End of registry

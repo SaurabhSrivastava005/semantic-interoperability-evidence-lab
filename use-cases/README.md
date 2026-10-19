@@ -1,6 +1,8 @@
 # Use Cases
-Explain a bounded business need and connect it to candidate standards, implementation cases and exceptions.
+Draft guides connect a business question to standards, implementation experience and exceptions.
 
-No reviewed records have been published in this collection yet. Proposed research and industry landscape entries are not implementation evidence.
+- [Observational health research](observational-health-research.md)
+- [Learner and diploma record exchange](learner-record-exchange.md)
+- [Building model exchange](building-model-exchange.md)
 
-Use [the use-case template](../templates/use-case.md) and follow [the evidence policy](../docs/evidence-policy.md). Add accepted records to this index with their industry, use case, outcome where applicable and review date.
+These are selection guides, not executable profiles. Apply [the evidence policy](../docs/evidence-policy.md) and use [the template](../templates/use-case.md).

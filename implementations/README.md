@@ -1,6 +1,11 @@
 # Implementation Cases
-Capture documented results for a named project and scope, including costs and limitations where reported.
+These four source-based drafts cover three industries. They have not received independent editorial approval or been reproduced by SIEL. Outcomes below are provisional assessments, not certifications.
 
-No reviewed records have been published in this collection yet. Proposed research and industry landscape entries are not implementation evidence.
+| Case | Industry | Provisional outcome | Source type |
+|---|---|---|---|
+| [EHDEN OMOP](healthcare-ehden-omop.md) | Healthcare | Successful within network-harmonisation scope | Programme investigators' peer-reviewed report |
+| [Flowsheet integration](healthcare-flowsheet-omop.md) | Healthcare | Partial; mapping approach tradeoff | Research preprint abstract |
+| [DUO EMREX](education-duo-emrex.md) | Education | Documented service availability | Official operator documentation |
+| [GeoBIM IFC](construction-geobim-ifc.md) | Construction | Partial; uneven interchange | Primary benchmark study |
 
-Use [the implementation template](../templates/implementation.md) and follow [the evidence policy](../docs/evidence-policy.md). Add accepted records to this index with their industry, use case, outcome where applicable and review date.
+No whole-standard or industry success rate is inferred. Use [the template](../templates/implementation.md) and [evidence policy](../docs/evidence-policy.md).

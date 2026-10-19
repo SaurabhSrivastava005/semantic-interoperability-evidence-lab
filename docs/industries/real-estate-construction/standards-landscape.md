@@ -29,3 +29,7 @@ Case records should state its lifecycle stage, geometry expectations, coordinate
 
 ## Evidence status
 This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Sourced record drafts
+[Building exchange guide](../../../use-cases/building-model-exchange.md), [GeoBIM case](../../../implementations/construction-geobim-ifc.md), [software interpretation exception](../../../exceptions/ifc-tool-interpretation.md) and [IFC source check](../../../registry/ifc.md).
+Independent editorial review is pending. Historical case outcomes do not establish current product performance.

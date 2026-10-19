@@ -30,3 +30,7 @@ Clinical meaning must be approved by delegated clinical authorities. Technical m
 
 ## Evidence status
 This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Sourced record drafts
+[Research guide](../../../use-cases/observational-health-research.md), [EHDEN case](../../../implementations/healthcare-ehden-omop.md), [flowsheet case](../../../implementations/healthcare-flowsheet-omop.md) and [OMOP source check](../../../registry/omop-cdm.md).
+Independent editorial review is pending. Historical case outcomes do not establish current product performance.

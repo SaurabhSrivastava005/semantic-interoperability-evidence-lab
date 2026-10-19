@@ -19,7 +19,7 @@ SIEL is an open, curated hub that brings standards, semantic models, knowledge g
 4. What did not meet requirements, and what remains untested or uncertain?
 
 ## Current coverage
-Eight industry landscapes and a starter YAML catalogue are available. Catalogue entries are discovery leads, not verified recommendations. Implementation and exception collections are being established; no reviewed implementation cases or exceptions are published yet. Proposed use cases are not evidence of successful adoption.
+Eight industry landscapes and a starter YAML catalogue are available. Catalogue entries are discovery leads, not verified recommendations. Four sourced implementation drafts, four linked exception drafts and three use-case guides are available across healthcare, education and construction. Independent editorial review is pending. Proposed use cases are not evidence of successful adoption. See the [verification log](docs/source-verification.md) for checked sources and remaining gaps.
 
 ## How records connect
 An industry guide links to standards and use cases. A use case links to implementation cases. Cases link to the standards and versions used, supporting sources and any exception records. Readers can follow the evidence behind a conclusion.

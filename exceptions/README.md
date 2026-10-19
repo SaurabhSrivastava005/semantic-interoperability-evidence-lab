@@ -1,6 +1,11 @@
 # Exceptions and Limitations
-Explain contextual differences, unmet requirements and workarounds, with affected versions and supporting sources.
+All records are source-based drafts pending independent review. A boundary or tradeoff is not automatically an implementation failure.
 
-No reviewed records have been published in this collection yet. Proposed research and industry landscape entries are not implementation evidence.
+| Record | Context | Finding type |
+|---|---|---|
+| [OMOP local vocabulary](omop-local-vocabulary.md) | EHDEN harmonisation | Reported iterative mapping |
+| [OMOP flowsheet utility](omop-flowsheet-utility.md) | Clinical research | Mapping effort versus utility |
+| [EMREX recognition](emrex-recognition-boundary.md) | Learner records | Policy and decision boundary |
+| [IFC interpretation](ifc-tool-interpretation.md) | GeoBIM benchmark | Software/version-specific limitation |
 
-Use [the exception template](../templates/exception.md) and follow [the evidence policy](../docs/evidence-policy.md). Add accepted records to this index with their industry, use case, outcome where applicable and review date.
+Use [the template](../templates/exception.md). Include sources, affected versions, consequences and whether a workaround is tested, reported or proposed.

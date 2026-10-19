@@ -29,19 +29,7 @@ No single source covers the complete university operating model. This guide help
 | [HL7 FHIR](https://hl7.org/fhir/) | University health and clinical research | Modular healthcare resources and APIs | Optional clinical overlay for academic medical centres and university health services |
 
 ## CAUDIT HERM boundary
-
-CAUDIT HERM can create future licensing and commercial-use constraints if its assets are copied into SIEL.
-
-SIEL must:
-
-- cite a specific HERM version and canonical URL;
-- do not imply that HERM is a mandatory dependency;
-- independently author SIEL summaries;
-- avoid copying diagrams, catalogues, definitions or ArchiMate files;
-- obtain written permission before adaptation, redistribution, bundling or commercial integration; and
-- avoid implying CAUDIT endorsement.
-
-This is project risk guidance, not legal advice.
+The official page states CC BY-NC-SA 4.0 alongside additional usage wording. See the [source-checked profile](../../../registry/caudit-herm.md) for scope, access and unresolved interpretation. SIEL links to the steward and does not redistribute model files. Clarification is needed for reuse not clearly covered by the applicable terms.
 
 ## Candidate use cases for evidence collection
 
@@ -55,3 +43,7 @@ For each use case, collect relevant standards, published implementation outcomes
 
 ## Evidence status
 This landscape lists discovery leads and candidate use cases. It does not establish successful adoption, conformance or failure. Add sourced [implementation cases](../../../implementations/README.md) and [exceptions](../../../exceptions/README.md) using the [evidence policy](../../evidence-policy.md).
+
+## Sourced record drafts
+[Learner-record guide](../../../use-cases/learner-record-exchange.md), [DUO case](../../../implementations/education-duo-emrex.md), [recognition boundary](../../../exceptions/emrex-recognition-boundary.md), [EMREX licence check](../../../registry/emrex-elmo.md) and [HERM source check](../../../registry/caudit-herm.md).
+Independent editorial review is pending. Historical case outcomes do not establish current product performance.

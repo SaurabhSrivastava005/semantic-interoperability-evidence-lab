@@ -11,10 +11,11 @@
 - [ ] Review catalogue entries against official versioned sources.
 - [ ] Reconcile catalogue coverage with the industry landscapes.
 - [ ] Complete one reviewed standard profile using the template.
-- [ ] Publish one bounded use-case guide.
+- [x] Publish initial draft use-case guides for three industries.
 - [ ] Publish the first sourced implementation case and linked exception where supported.
 - [ ] Recruit domain reviewers and record editorial ownership.
-- [ ] Check source links, reuse conditions and review dates.
+- [x] Check selected source links and terms; record unresolved rights questions.
+- [ ] Complete checks for remaining catalogue entries and obtain independent review.
 
 ## Then: deepen coverage
 - [ ] Prioritise industries according to contributor expertise and user demand.
