@@ -167,7 +167,7 @@ entries:
     not verified
   license_status: not-verified
   jurisdiction: Use-case-specific; no mandate assessed
-  version: No deployment release evaluated; documentation source checked 2026-10-19
+  version: No deployment release evaluated; documentation source checked 2026-10-20
   feature_maturity: Public Preview in inspected documentation
   artifact_types:
   - ai-business-context
@@ -175,14 +175,14 @@ entries:
   verification_status: source-checked-partial
   implementation_outcome: not-evaluated
   profile: records/databricks-genie-ontology.md
-  source_checked_on: 2026-10-19
+  source_checked_on: 2026-10-20
   url: https://docs.databricks.com/aws/en/genie/genie-ontology
   product_dependencies:
   - Databricks platform and configured source assets; exact entitlements and integrations
     require checking
   prepared_by: Codex; source-specific checks as recorded
   independent_reviewer: pending
-  next_review: '2027-04-19'
+  next_review: '2027-04-20'
   implementation_cases: []
   exception_records: []
   industries:
@@ -482,7 +482,7 @@ entries:
     not verified
   license_status: not-verified
   jurisdiction: Use-case-specific; no mandate assessed
-  version: No deployment release evaluated; documentation source checked 2026-10-19
+  version: No deployment release evaluated; documentation source checked 2026-10-20
   feature_maturity: Not established for every API or integration; verify selected
     feature
   artifact_types:
@@ -491,14 +491,14 @@ entries:
   verification_status: source-checked-partial
   implementation_outcome: not-evaluated
   profile: records/google-knowledge-catalog-context.md
-  source_checked_on: 2026-10-19
+  source_checked_on: 2026-10-20
   url: https://docs.cloud.google.com/knowledge-catalog/docs/about-context
   product_dependencies:
   - Google Cloud platform and configured source assets; exact entitlements and integrations
     require checking
   prepared_by: Codex; source-specific checks as recorded
   independent_reviewer: pending
-  next_review: '2027-04-19'
+  next_review: '2027-04-20'
   implementation_cases: []
   exception_records: []
   industries:
@@ -715,7 +715,7 @@ entries:
     not verified
   license_status: not-verified
   jurisdiction: Use-case-specific; no mandate assessed
-  version: No deployment release evaluated; documentation source checked 2026-10-19
+  version: No deployment release evaluated; documentation source checked 2026-10-20
   feature_maturity: Preview in inspected documentation
   artifact_types:
   - ai-business-context
@@ -723,17 +723,18 @@ entries:
   verification_status: source-checked-partial
   implementation_outcome: not-evaluated
   profile: records/microsoft-fabric-iq-ontology.md
-  source_checked_on: 2026-10-19
+  source_checked_on: 2026-10-20
   url: https://learn.microsoft.com/en-us/fabric/iq/ontology/overview
   product_dependencies:
   - Microsoft platform and configured source assets; exact entitlements and integrations
     require checking
   prepared_by: Codex; source-specific checks as recorded
   independent_reviewer: pending
-  next_review: '2027-04-19'
+  next_review: '2027-04-20'
   implementation_cases: []
   exception_records:
   - ../evidence/exceptions/fabric-iq-ontology-migration.md
+  - ../evidence/exceptions/fabric-ontology-import-fidelity.md
   industries:
   - cross-industry
   legacy_classification: discovery
@@ -937,7 +938,7 @@ entries:
     not verified
   license_status: not-verified
   jurisdiction: Use-case-specific; no mandate assessed
-  version: No deployment release evaluated; documentation source checked 2026-10-19
+  version: No deployment release evaluated; documentation source checked 2026-10-20
   feature_maturity: Not established for every component; no blanket GA claim
   artifact_types:
   - ai-business-context
@@ -945,16 +946,17 @@ entries:
   verification_status: source-checked-partial
   implementation_outcome: not-evaluated
   profile: records/palantir-ontology.md
-  source_checked_on: 2026-10-19
+  source_checked_on: 2026-10-20
   url: https://www.palantir.com/docs/foundry/ontology/overview
   product_dependencies:
   - Palantir platform and configured source assets; exact entitlements and integrations
     require checking
   prepared_by: Codex; source-specific checks as recorded
   independent_reviewer: pending
-  next_review: '2027-04-19'
+  next_review: '2027-04-20'
   implementation_cases: []
-  exception_records: []
+  exception_records:
+  - ../evidence/exceptions/palantir-action-write-controls.md
   industries:
   - cross-industry
   legacy_classification: discovery
@@ -1279,7 +1281,7 @@ entries:
     not verified
   license_status: not-verified
   jurisdiction: Use-case-specific; no mandate assessed
-  version: No deployment release evaluated; documentation source checked 2026-10-19
+  version: No deployment release evaluated; documentation source checked 2026-10-20
   feature_maturity: Release and feature availability must be checked; not inferred
     from overview
   artifact_types:
@@ -1288,14 +1290,14 @@ entries:
   verification_status: source-checked-partial
   implementation_outcome: not-evaluated
   profile: records/snowflake-semantic-views-cortex.md
-  source_checked_on: 2026-10-19
+  source_checked_on: 2026-10-20
   url: https://docs.snowflake.com/en/user-guide/views-semantic/overview
   product_dependencies:
   - Snowflake platform and configured source assets; exact entitlements and integrations
     require checking
   prepared_by: Codex; source-specific checks as recorded
   independent_reviewer: pending
-  next_review: '2027-04-19'
+  next_review: '2027-04-20'
   implementation_cases: []
   exception_records:
   - ../evidence/exceptions/cortex-analyst-prior-results.md
