@@ -77,15 +77,7 @@ These 24 dimensions are SIEL's proposed assessment framework for a Knowledge Cat
 | GKC-24 | Business value and deployment fit | Does the workflow improve a defined business outcome against the current process, within the selected feature's availability and support conditions? | Held-out tasks, baseline, coverage, correctness, abstentions, review effort and deployment/version/support details. |
 
 ### How to record findings
-Keep question quality separate from implementation results. “Correct and important” describes the relevance of a question; it does not report how a product or deployment performs.
-
-For each dimension, record applicability, acceptance criteria, deployment/component owner, evidence type and date, observed result, unresolved gaps and independent-review status. Use **meets**, **partially meets**, **does not meet**, **not evaluated**, or **not applicable with reason** for the scoped assessment. A vendor description alone remains documentation evidence. Missing evidence stays **not evaluated**.
-
-Choose thresholds before evaluation. Use domain-reviewed expected results and held-out questions; include authorised and unauthorised identities, conflicting definitions, changes and failures. Report dimensions separately, including the denominator and exclusions. Do not average away an unmet mandatory business or access requirement.
-
-Distinguish catalogue service, ingestion/metadata governance, consuming agent, source query engine and downstream tools when assigning responsibility. An application-level issue should not automatically be recorded as a catalogue defect.
-
-See the shared [evaluation guide](../../guides/ai-context-evaluation.md) for implementation-case evidence and the eight-industry scenario worksheet.
+Use the [shared assessment rules](../../guides/ai-context-evaluation.md#shared-dimension-framework-and-assessment-rules) for acceptance criteria, evidence status, outcomes and component responsibility. GKC-01 through GKC-24 map to the same numbered dimensions used by the other AI-context profiles.
 
 ## Industry example and boundaries
 Proposed government case: discover an approved service-performance dataset and interpret its eligibility and reporting-period definitions. Evaluate discovery, semantic interpretation and lawful source access separately. This is an illustrative scenario, not an implemented case.

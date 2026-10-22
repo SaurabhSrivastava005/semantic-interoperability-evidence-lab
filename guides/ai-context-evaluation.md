@@ -17,6 +17,40 @@ Name the product feature, deployment version, business domain, curated model, in
 | What does maintenance cost? | Authoring, curation, review and upgrade effort with measurement period |
 | Can the organisation leave? | Exported definitions, rights, mapping work and demonstrated behaviour outside the product |
 
+## Shared dimension framework and assessment rules
+The AI-context profiles use the following 24 dimensions. Each profile has product-specific questions and evidence requests; a shared dimension does not establish feature parity. Apply the framework to a named business task and deployment. Add industry obligations where needed. Framework expanded 22 October 2026; this editorial update does not change the recorded product-source check dates.
+
+| Dimension numbers | Area | Dimensions |
+|---|---|---|
+| 01–04 | Business meaning | Semantic fidelity; Applicability and exceptions; Authority and conflict resolution; Traceability and revision identity |
+| 05–08 | Discovery and context quality | Asset coverage and discovery; Relevance and context completeness; Relationships, identity and mappings; Metadata quality and source-data quality |
+| 09–12 | Governance and change | Freshness and propagation; Lifecycle and change control; Uncertainty and missing context; Accountability and stewardship effort |
+| 13–16 | Security and trust boundaries | End-to-end authorization; Privacy and information exposure; Untrusted context and instruction handling; Location, retention and use constraints |
+| 17–20 | Consumer behaviour and reproducibility | Downstream semantic correctness; Cross-consumer consistency; Auditability and repeatability; Failure handling and reliability |
+| 21–24 | Operations, portability and value | Performance and scale; Cost and operational burden; Portability and interoperability; Business value and deployment fit |
+
+The local prefixes identify the offering; the numeric suffix identifies the common dimension:
+
+| Prefix | Assessment |
+|---|---|
+| GEN | [Genie Ontology](../catalogue/records/databricks-genie-ontology.md#assessment-dimensions-and-evidence) |
+| PAL | [Palantir Ontology](../catalogue/records/palantir-ontology.md#assessment-dimensions-and-evidence) |
+| FAB | [Fabric IQ ontology](../catalogue/records/microsoft-fabric-iq-ontology.md#assessment-dimensions-and-evidence) |
+| SNF | [Snowflake Semantic Views / Cortex Analyst](../catalogue/records/snowflake-semantic-views-cortex.md#assessment-dimensions-and-evidence) |
+| GKC | [Google Knowledge Catalog](../catalogue/records/google-knowledge-catalog-context.md#assessment-dimensions-and-evidence) |
+
+### Define criteria and responsibility
+Keep question relevance separate from implementation results. “Correct and important” describes a useful question, not a product result. For every dimension, record applicability and reason, the acceptance criterion, business task, component/owner, deployment configuration, evidence type/date, observed result, unresolved gaps and independent-review status.
+
+Assign responsibility to the actual component: metadata ingestion, catalogue/semantic definition, retrieval, consumer/model, query engine or action/tool. An application failure does not automatically establish a source-product defect. Read-only tasks may exclude action-specific tests with a reason; operational workflows must retain execution and final-state checks.
+
+Set task-specific thresholds before evaluation. Include authorised and unauthorised users, difficult meanings, changes and failures. Retain attempted-task counts, exclusions and uncertainty. Required evidence may be unavailable; record that gap rather than assuming a product lacks the capability.
+
+### Record dimension outcomes
+Use **meets**, **partially meets**, **does not meet**, **not evaluated**, or **not applicable with reason** against the stated criterion. Keep the supporting evidence type separate: documentation, reported implementation or observed/reproduced result. Documentation about a control does not establish that a deployment satisfies it. Missing evidence remains **not evaluated**.
+
+Do not combine the 24 findings into an unqualified product score. Report mandatory unmet requirements explicitly; averaging must not conceal a failed business rule or access requirement. Use domain-reviewed expected results, held-out questions and bounded conclusions. No assessment in these profiles has been executed merely because questions are listed.
+
 ## Compare against a baseline
 Use a stated alternative, such as existing curated semantic definitions or the current manual process. Report accuracy together with attempted task coverage, abstentions, review effort, latency and cost. State sample size, task selection and conflicts of interest. Do not derive an industry success rate from a handful of cases.
 
