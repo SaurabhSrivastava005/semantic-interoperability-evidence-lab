@@ -1,7 +1,7 @@
 # Learner and diploma record exchange
 - ID: use-learner-record-exchange
 - Status: draft; independent editorial review pending
-- Prepared by: Codex
+- Prepared by: Saurabh/Codex
 - Industry: Higher education
 - Source checked: 2026-10-19
 - Next review: 2027-04-19

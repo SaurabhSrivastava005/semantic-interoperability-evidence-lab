@@ -3,7 +3,7 @@
 Superseded by the current [verification status](../guides/verification-status.md). Counts and backlog statements below describe earlier batches and are not current coverage claims.
 
 # Source Verification Log
-Checked: 2026-10-19. Prepared by Codex. Independent reviewer: pending.
+Checked: 2026-10-19. Prepared by Saurabh/Codex. Independent reviewer: pending.
 
 ## Scope
 This is a first verification batch, not a completed audit of the catalogue. Four profiles, four cases, four exceptions and three use-case guides are draft records. No independent reproduction or standards certification was performed.

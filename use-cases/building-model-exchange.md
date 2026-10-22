@@ -1,7 +1,7 @@
 # Building model exchange across software tools
 - ID: use-building-model-exchange
 - Status: draft; independent editorial review pending
-- Prepared by: Codex
+- Prepared by: Saurabh/Codex
 - Industry: Real estate and construction
 - Source checked: 2026-10-19
 - Next review: 2027-04-19

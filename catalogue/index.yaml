@@ -25,7 +25,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -54,7 +54,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -83,7 +83,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -114,7 +114,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -146,7 +146,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -180,7 +180,7 @@ entries:
   product_dependencies:
   - Databricks platform and configured source assets; exact entitlements and integrations
     require checking
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-20'
   implementation_cases: []
@@ -211,7 +211,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -244,7 +244,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -272,7 +272,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -305,7 +305,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -334,7 +334,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -366,7 +366,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases:
@@ -397,7 +397,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -431,7 +431,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -460,7 +460,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -496,7 +496,7 @@ entries:
   product_dependencies:
   - Google Cloud platform and configured source assets; exact entitlements and integrations
     require checking
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-20'
   implementation_cases: []
@@ -528,7 +528,7 @@ entries:
   product_dependencies:
   - Looker execution environment
   - Underlying SQL database; dialect and authored model require case-specific assessment
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -558,7 +558,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -590,7 +590,7 @@ entries:
   url: https://www.ibm.com/support/pages/getting-started-ibm-industry-models-2
   product_dependencies:
   - Offering-specific modelling tools, entitlements and support requirements not verified
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -625,7 +625,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -656,7 +656,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases:
@@ -691,7 +691,7 @@ entries:
   - CDM SDK when using SDK-backed parsing
   - Additional application schemas when required; Microsoft services have separate
     terms
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -728,7 +728,7 @@ entries:
   product_dependencies:
   - Microsoft platform and configured source assets; exact entitlements and integrations
     require checking
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-20'
   implementation_cases: []
@@ -761,7 +761,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -790,7 +790,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -819,7 +819,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -852,7 +852,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases:
@@ -885,7 +885,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -916,7 +916,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -951,7 +951,7 @@ entries:
   product_dependencies:
   - Palantir platform and configured source assets; exact entitlements and integrations
     require checking
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-20'
   implementation_cases: []
@@ -984,7 +984,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -1013,7 +1013,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -1043,7 +1043,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -1076,7 +1076,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -1107,7 +1107,7 @@ entries:
   url: https://developer.salesforce.com/docs/platform/data-models/guide/financial-services-overview.html
   product_dependencies:
   - Salesforce product, object model and package requirements depend on selected representation
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -1137,7 +1137,7 @@ entries:
   url: https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/integration-models
   product_dependencies:
   - Supported SAP application and integration model versions require confirmation
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -1169,7 +1169,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -1199,7 +1199,7 @@ entries:
   profile: records/schema-org.md
   source_checked_on: 2026-10-19
   notes: Broad cross-domain vocabulary; useful for general entity/relationship modelling.
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
@@ -1229,7 +1229,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -1259,7 +1259,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -1295,7 +1295,7 @@ entries:
   product_dependencies:
   - Snowflake platform and configured source assets; exact entitlements and integrations
     require checking
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-20'
   implementation_cases: []
@@ -1326,7 +1326,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -1355,7 +1355,7 @@ entries:
   access_class: not-assessed
   license_status: not-verified
   implementation_outcome: not-evaluated
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   source_checked_on: null
   next_review: null
@@ -1388,7 +1388,7 @@ entries:
   product_dependencies:
   - Identify version-specific imports, runtime and entitlement in a bounded implementation
     case
-  prepared_by: Codex; source-specific checks as recorded
+  prepared_by: Saurabh/Codex; source-specific checks as recorded
   independent_reviewer: pending
   next_review: '2027-04-19'
   implementation_cases: []
