@@ -2,7 +2,7 @@
 id: exception-cortex-analyst-prior-results
 record_type: exception
 editorial_status: draft
-prepared_by: Codex from cited sources
+prepared_by: Saurabh/Codex from cited sources
 independent_reviewer: pending
 source_checked_on: '2026-10-19'
 next_review: '2027-04-19'

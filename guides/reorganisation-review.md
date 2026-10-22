@@ -1,6 +1,6 @@
 # Repository Review and Reorganisation
 
-Review date: 2026-10-19. Prepared by Codex. Independent editorial approval pending.
+Review date: 2026-10-19. Prepared by Saurabh/Codex. Independent editorial approval pending.
 
 ## Findings addressed
 

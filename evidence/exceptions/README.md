@@ -10,9 +10,11 @@ These are source-based drafts. A reported outcome is not independent reproductio
 | [DBpedia: dataset families can have different reuse terms](dbpedia-dataset-licensing.md) | publisher-licensing-boundary | draft |
 | [EMREX: exchanging results does not complete academic recognition](emrex-recognition-boundary.md) | documented-policy-boundary | draft |
 | [Fabric IQ ontology: migration between preview experiences](fabric-iq-ontology-migration.md) | vendor-migration-boundary | draft |
+| [Fabric ontology: import conversion can alter definitions](fabric-ontology-import-fidelity.md) | vendor-interoperability-boundary | draft |
 | [IFC: interpretation and export vary by software workflow](ifc-tool-interpretation.md) | reported-implementation-limitation | draft |
 | [Microsoft CDM: Schema Store dependency and SDK migration](microsoft-cdm-schema-store.md) | vendor-maintenance-notice | draft |
 | [OMOP flowsheets: loading data does not ensure analytical utility](omop-flowsheet-utility.md) | reported-implementation-tradeoff | draft |
 | [OMOP: local vocabulary mapping needs site-specific review](omop-local-vocabulary.md) | reported-implementation-limitation | draft |
+| [Palantir actions: read controls and write protection](palantir-action-write-controls.md) | vendor-security-boundary | draft |
 
 [Evidence policy](../../guides/evidence-policy.md) · [All evidence](../README.md)

@@ -10,7 +10,7 @@ This page is generated from catalogue metadata. It reports source-check coverage
 | Source check not completed | 17 |
 | Partial source checks recorded | 27 |
 | Implementation-case drafts | 4 |
-| Exception/boundary drafts | 8 |
+| Exception/boundary drafts | 10 |
 
 ## Records still awaiting source checks
 
@@ -33,6 +33,6 @@ This page is generated from catalogue metadata. It reports source-check coverage
 - [W3C Verifiable Credentials](../catalogue/records/w3c-vc.md)
 
 ## Review boundaries
-All current catalogue records remain drafts. Source dates record earlier checks; this structural change performs no new external source verification. Licence scope, versions, deployment details and outcomes remain subject to each record's stated limitations.
+All current catalogue records remain drafts. Source dates identify the checks documented in individual records; they do not establish independent verification or comprehensive coverage. Licence scope, versions, deployment details and outcomes remain subject to each record's stated limitations.
 
 The flowsheet case is abstract-level; the IFC rights check includes development-versus-release limits; SAP retrieval was partial. See those records before using a conclusion. Historical batch notes are in the [archive](../archive/editorial-batch-log.md).

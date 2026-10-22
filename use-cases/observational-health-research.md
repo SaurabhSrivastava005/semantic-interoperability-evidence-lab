@@ -1,7 +1,7 @@
 # Observational health research across different source systems
 - ID: use-observational-research
 - Status: draft; independent editorial review pending
-- Prepared by: Codex
+- Prepared by: Saurabh/Codex
 - Industry: Healthcare
 - Source checked: 2026-10-19
 - Next review: 2027-04-19
